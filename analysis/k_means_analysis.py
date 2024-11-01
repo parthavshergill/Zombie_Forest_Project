@@ -5,6 +5,7 @@ from tqdm import tqdm
 
 def visualize_clusters(dataset):
   # Scatter plot of species by clusters
+    plt.figure(figsize=(15, 15))
     plt.scatter(dataset['decimallongitude'], dataset['decimallatitude'], c=dataset['cluster'], cmap='viridis')
     plt.title('Geographical Clusters of Species')
     plt.xlabel('Longitude')
@@ -14,7 +15,7 @@ def visualize_clusters(dataset):
 # Returns a pandas series that can be used as a new 'cluster' col in the  dataset
 def k_means(dataset, k):
     # Apply KMeans to the lat/long data to create clusters
-    kmeans = KMeans(n_clusters=5)
+    kmeans = KMeans(n_clusters=k)
     return kmeans.fit_predict(dataset[['decimallatitude', 'decimallongitude']])
 
 # Method to do k-means clustering on latitude and longitude 
