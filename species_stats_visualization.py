@@ -12,14 +12,16 @@ filtered_species_df = species_stats_df[species_stats_df['obs_count'] > 100]
 top_significant_df = filtered_species_df.nsmallest(50, 'chi2_p')
 
 # Select the top 50 most significant species based on chi2_p and fisher_p
-top_50_chi2 = set(filtered_species_df.nsmallest(10, 'chi2_p')['species'])
-top_50_fisher = set(filtered_species_df.nsmallest(10, 'fisher_p')['species'])
+top_50_chi2 = set(filtered_species_df.nsmallest(50, 'chi2_p')['species'])
+top_50_fisher = set(filtered_species_df.nsmallest(50, 'fisher_p')['species'])
 
 # Calculate the intersection of the two sets to find species in both lists
 common_species = top_50_chi2.intersection(top_50_fisher)
 common_species_count = len(common_species)
 
 print(len(filtered_species_df))
+
+print(top_50_chi2)
 
 print('Common species are:', common_species_count, common_species)
 

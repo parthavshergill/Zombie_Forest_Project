@@ -14,6 +14,7 @@ data = next(chunks)
 
 # Select relevant columns
 relevant_data = data[['species', 'decimallatitude', 'decimallongitude', 'conifer_class']]
+print(relevant_data)
 
 # Drop rows with missing species or conifer_class
 relevant_data = relevant_data.dropna(subset=['species', 'conifer_class'])
