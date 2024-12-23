@@ -1,7 +1,8 @@
 import pandas as pd 
+import matplotlib.pyplot as plt
 
 # Load the larger dataset with grid locations
-file_path = 'data_sources/updated_data_with_grid_location.csv'
+file_path = 'data_sources/processed-inat-data-complete.csv'
 data_large = pd.read_csv(file_path)
 
 print(len(data_large))
@@ -15,8 +16,6 @@ square_kilometers = unique_grid_boxes  # Each grid box corresponds to 1 square k
 
 print(unique_grid_boxes, square_kilometers)
 
-# Calculate the geographic spread based on the latitude and longitude ranges
-
 # Find min and max latitude and longitude to determine the coverage area
 min_latitude = data_large['decimallatitude'].min()
 max_latitude = data_large['decimallatitude'].max()
@@ -29,9 +28,6 @@ longitudinal_spread_km = (max_longitude - min_longitude) / LONGITUDE_INCREMENT  
 
 print(latitudinal_spread_km*longitudinal_spread_km)
 
-import pandas as pd
-import matplotlib.pyplot as plt
-
 data = data_large
 
 # Count observations per grid box
@@ -42,10 +38,12 @@ grid_box_counts.columns = ['grid_location', 'observation_count']
 mean_observations = grid_box_counts['observation_count'].mean()
 median_observations = grid_box_counts['observation_count'].median()
 max_observations = grid_box_counts['observation_count'].max()
+min_observations = grid_box_counts['observation_count'].min()
 
 print(f"Mean observations per grid box: {mean_observations}")
 print(f"Median observations per grid box: {median_observations}")
 print(f"Max observations in a grid box: {max_observations}")
+print(f"Min observations in a grid box: {min_observations}")
 
 # Plot distribution of observations per grid box
 plt.figure(figsize=(10, 6))

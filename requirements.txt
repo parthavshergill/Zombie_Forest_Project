@@ -6,3 +6,6 @@ tqdm
 seaborn
 geo
 imbalanced-learn
+xgboost
+statsmodels
+shap

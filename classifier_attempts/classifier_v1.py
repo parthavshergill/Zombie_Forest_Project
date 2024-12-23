@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
-file_path = 'data_sources/updated_data_with_grid_location.csv'  # Replace with actual file path
+file_path = 'data_sources/complete-data-w-grid-locs.csv'  # Replace with actual file path
 data = pd.read_csv(file_path)
 
 # Step 1: Create a pivot table to count species per grid box
