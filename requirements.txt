@@ -9,3 +9,5 @@ imbalanced-learn
 xgboost
 statsmodels
 shap
+rasterio
+geopandas
