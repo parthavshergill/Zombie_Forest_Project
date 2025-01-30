@@ -32,6 +32,8 @@ with rasterio.open(raster_path) as src:
 # Drop rows with no grid assigned
 data_gdf = data_gdf.dropna(subset=['grid_location'])
 
+print(data_gdf.head(20))
+
 # Count unique grid boxes
 unique_grid_boxes = data_gdf['grid_location'].nunique()
 print(f"Unique grid boxes: {unique_grid_boxes}")

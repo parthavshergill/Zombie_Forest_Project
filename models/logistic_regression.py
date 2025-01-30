@@ -6,7 +6,7 @@ from sklearn.utils.class_weight import compute_class_weight
 import numpy as np
 
 # Reload the dataset
-file_path = 'data_sources/inat-data-matrix_01_29_25.csv'
+file_path = 'data_sources/inat-data-matrix.csv'
 data = pd.read_csv(file_path)
 
 # Identify species columns and the target label
