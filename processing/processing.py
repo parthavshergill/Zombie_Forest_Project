@@ -31,7 +31,10 @@ data['grid_location'] = data.apply(lambda row: calculate_grid_location(row['deci
 print(f"Num. obs. with >= 1000 coordinate uncertainty is {len(data[data['coordinateuncertaintyinmeters'] >= 1000])}")
 
 # Discard entries with `coordinateuncertaintyinmeters` >= 1000
-filtered_data = data[data['coordinateuncertaintyinmeters'] < 1000]
+# filtered_data = data[data['coordinateuncertaintyinmeters'] < 1000]
+
+# Don't disca
+filtered_data = data
 
 print(f"Remaining observations is {len(filtered_data)}")
 
@@ -43,7 +46,7 @@ filtered_data['vcm_label'] = filtered_data['composite_zf_class'].apply(
     lambda x: 1 if 'VCM' in str(x) else 0
 )
 
-# 5. Calculate the majority VCM label for each grid location
+# Calculate the majority VCM label for each grid location
 grid_vcm_majority = filtered_data.groupby('grid_location')['vcm_label'].mean().apply(
     lambda x: 1 if x >= 0.5 else 0  # Assign 1 if majority of observations in grid are VCM
 )
