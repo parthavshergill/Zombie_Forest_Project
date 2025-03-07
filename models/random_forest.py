@@ -1,79 +1,136 @@
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV, StratifiedKFold, train_test_split
-from sklearn.metrics import make_scorer, roc_auc_score, classification_report
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.metrics import classification_report, roc_auc_score, make_scorer
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Load the dataset
-file_path = 'data_sources/inat-data-matrix.csv'
-data = pd.read_csv(file_path)
+# Define our top indicator species
+top_indicator_species = [
+    'species_Toxicodendron diversilobum',
+    'species_Silene laciniata',
+    'species_Chamaebatia foliolosa',
+    'species_Arctostaphylos viscida',
+    'species_Adelinia grande',
+    'species_Heteromeles arbutifolia',
+    'species_Aesculus californica',
+    'species_Elgaria multicarinata',
+    'species_Calochortus albus',
+    'species_Woodwardia fimbriata',
+    'species_Lonicera hispidula',
+    'species_Lysimachia latifolia',
+    'species_Calochortus venustus',
+    'species_Acer macrophyllum',
+    'species_Chlorogalum pomeridianum',
+    'species_Diplacus grandiflorus',
+    'species_Ceanothus integerrimus',
+    'species_Dicentra formosa',
+    'species_Crotalus oreganus',
+    'species_Iris hartwegii'
+]
 
-# Identify species columns and the target label
-species_columns = [col for col in data.columns if col.startswith("species_")]
-X = data[species_columns]
+# Load data
+print("Loading data...")
+data = pd.read_csv("inat-data-matrix-gdf.csv")
+
+# Prepare features and target
+species_columns = [col for col in data.columns if col.startswith('species_')]
+X_all = data[species_columns]
 y = data['vcm_label']
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-
-# Define cross-validation strategy
-cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-
-# Define the Random Forest Classifier
-rf = RandomForestClassifier(class_weight="balanced", random_state=42)
-
-# Define the hyperparameter grid
-param_grid = {
-    'n_estimators': [50, 100, 200],
-    'max_depth': [None, 10, 20, 30],
-    'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4]
+# Calculate class weights
+class_counts = y.value_counts()
+total_samples = len(y)
+class_weights = {
+    0: total_samples / (2 * class_counts[0]),
+    1: total_samples / (2 * class_counts[1])
 }
+print("\nClass weights:", class_weights)
 
-# Define custom scorer for ROC AUC
-roc_auc_scorer = make_scorer(roc_auc_score, needs_proba=True)
+# Prepare top indicators dataset
+X_top = data[top_indicator_species]
 
-# Perform hyperparameter tuning using GridSearchCV
-grid_search = GridSearchCV(
-    estimator=rf,
-    param_grid=param_grid,
-    scoring=roc_auc_scorer,
-    cv=cv,
-    n_jobs=-1,
-    verbose=1
+# Split data
+X_all_train, X_all_test, X_top_train, X_top_test, y_train, y_test = train_test_split(
+    X_all, X_top, y, test_size=0.2, random_state=42, stratify=y
 )
 
-# Fit the model with GridSearchCV
-grid_search.fit(X_train, y_train)
+# Define parameter grid for GridSearchCV
+param_grid = {
+    'n_estimators': [100, 200, 300],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4],
+    'class_weight': ['balanced', 'balanced_subsample', class_weights]
+}
 
-# Display the best hyperparameters
-print(f"Best Hyperparameters: {grid_search.best_params_}")
+# Define scoring metric
+scoring = {
+    'AUC': 'roc_auc',
+    'F1': 'f1',
+    'Precision': 'precision',
+    'Recall': 'recall'
+}
 
-# Display the best cross-validated ROC AUC score
-print(f"Best Cross-Validated ROC AUC: {grid_search.best_score_}")
+def train_and_evaluate_model(X_train, X_test, name=""):
+    """Helper function to train and evaluate a model with grid search"""
+    print(f"\nTraining {name} model...")
+    
+    # Initialize base model
+    rf = RandomForestClassifier(random_state=42)
+    
+    # Perform grid search
+    grid_search = GridSearchCV(
+        estimator=rf,
+        param_grid=param_grid,
+        scoring='roc_auc',
+        cv=5,
+        n_jobs=-1,
+        verbose=1
+    )
+    
+    grid_search.fit(X_train, y_train)
+    
+    # Get best model
+    best_model = grid_search.best_estimator_
+    
+    # Make predictions
+    y_pred = best_model.predict(X_test)
+    y_prob = best_model.predict_proba(X_test)[:, 1]
+    
+    # Print results
+    print(f"\n{name} Model Results:")
+    print(f"Best parameters: {grid_search.best_params_}")
+    print(f"Best cross-validation ROC-AUC: {grid_search.best_score_:.3f}")
+    print(f"Test set ROC-AUC: {roc_auc_score(y_test, y_prob):.3f}")
+    print("\nClassification Report:")
+    print(classification_report(y_test, y_pred))
+    
+    return best_model, grid_search.best_score_
 
-# Train the final model using the best hyperparameters
-best_rf = grid_search.best_estimator_
-best_rf.fit(X_train, y_train)
+# Train and evaluate both models
+model_all, cv_score_all = train_and_evaluate_model(X_all_train, X_all_test, "All Species")
+model_top, cv_score_top = train_and_evaluate_model(X_top_train, X_top_test, "Top Indicators")
 
-# Make predictions on the test set
-y_pred = best_rf.predict(X_test)
-y_pred_prob = best_rf.predict_proba(X_test)[:, 1]
+# Feature importance for top indicators model
+importance_df = pd.DataFrame({
+    'species': [s.replace('species_', '') for s in top_indicator_species],
+    'importance': model_top.feature_importances_
+})
+importance_df = importance_df.sort_values('importance', ascending=False)
 
-# Display the classification report
-print("Classification Report:")
-print(classification_report(y_test, y_pred))
+# Visualize feature importance
+plt.figure(figsize=(12, 6))
+sns.barplot(data=importance_df, x='importance', y='species')
+plt.title('Feature Importance of Top Indicator Species')
+plt.xlabel('Importance')
+plt.tight_layout()
+plt.savefig('top_indicators_importance.png')
 
-# Extract feature importance
-feature_importance = pd.DataFrame({
-    'species': species_columns,
-    'importance': best_rf.feature_importances_
-}).sort_values(by='importance', ascending=False)
+# Save results
+importance_df.to_csv('top_indicators_importance.csv', index=False)
 
-# Save feature importance to a CSV file
-feature_importance.to_csv("rf_species_feature_importance_tuned.csv", index=False)
-
-# Display the top 10 most important species
-top_important_species = feature_importance.head(10)
-print("Top 10 Most Important Species for Predicting VCM:")
-print(top_important_species)
+print("\nResults saved to:")
+print("- top_indicators_importance.png")
+print("- top_indicators_importance.csv")
