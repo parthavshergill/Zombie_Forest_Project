@@ -1,0 +1,816 @@
+species,cramer_v,odds_ratio,co_occurrence_ratio,p_value,chi2_statistic,adjusted_p_value,preference_index,relative_risk,interpretation,cooccurrence_zscore,relative_strength,co_occurrence_ratio_percentile,cramer_v_percentile,odds_ratio_percentile,rank
+species_Acer macrophyllum,0.09548197977241887,3.433209013008466,0.40512820512820513,3.923483137299053e-18,75.35953874078018,5.1697660162058115e-17,0.28226386565315187,inf,"Very strong association with VCM (z-score: 1.3, ranked #17 of 163 significant species)
+Co-occurrence ratio: 40.5% (higher than 90.2% of significant species)
+Effect size (Cramer's V): 0.095 (stronger than 90.2% of significant species)
+Odds ratio: 3.4 (higher than 90.2% of significant species)
+p=5.2e-17",1.3244100566508952,strong,0.901840490797546,0.901840490797546,0.901840490797546,17.0
+species_Aconitum columbianum,0.055464189108999924,0.0,0.0,4.590855946504919e-07,25.42849967690728,1.8363423786019676e-06,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.055 (stronger than 66.6% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.8e-06",-0.675156762321988,weak,0.06441717791411043,0.6656441717791411,0.06441717791411043,153.5
+species_Actaea rubra,0.02409688381734497,0.3155534384403574,0.06153846153846154,0.028464131526862932,4.799733987034936,0.039823941677711056,-0.13229062573683797,inf,"Below average association with VCM (z-score: -0.4, ranked #67 of 163 significant species)
+Co-occurrence ratio: 6.2% (higher than 59.5% of significant species)
+Effect size (Cramer's V): 0.024 (stronger than 2.5% of significant species)
+Odds ratio: 0.3 (higher than 59.5% of significant species)
+p=4.0e-02",-0.37142509361724624,weak,0.5950920245398773,0.024539877300613498,0.5950920245398773,67.0
+species_Adelinia grande,0.15706847463081253,13.783756495916853,0.7311827956989247,2.9043167960027518e-46,203.92640030507977,1.3011339246092326e-44,0.6756615076992135,inf,"Exceptionally strong association with VCM (z-score: 2.9, ranked #5 of 163 significant species)
+Co-occurrence ratio: 73.1% (higher than 97.5% of significant species)
+Effect size (Cramer's V): 0.157 (stronger than 97.5% of significant species)
+Odds ratio: 13.8 (higher than 97.5% of significant species)
+p=1.3e-44",2.933698010997793,very_strong,0.9754601226993865,0.9754601226993865,0.9754601226993865,5.0
+species_Aesculus californica,0.1617669562161596,44.3936612824278,0.8983050847457628,5.7738758120001274e-49,216.3092187883625,3.2333704547200713e-47,0.8773010991838381,inf,"Exceptionally strong association with VCM (z-score: 3.8, ranked #3 of 163 significant species)
+Co-occurrence ratio: 89.8% (higher than 98.8% of significant species)
+Effect size (Cramer's V): 0.162 (stronger than 98.2% of significant species)
+Odds ratio: 44.4 (higher than 98.8% of significant species)
+p=3.2e-47",3.7585534016095177,very_strong,0.9877300613496932,0.9815950920245399,0.9877300613496932,3.0
+species_Agastache urticifolia,0.041214861779732145,0.14199366112248618,0.028846153846153848,0.00017885225239576953,14.041163497364371,0.0003744196685668446,-0.1717351762235721,inf,"Below average association with VCM (z-score: -0.5, ranked #103 of 163 significant species)
+Co-occurrence ratio: 2.9% (higher than 37.4% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 35.0% of significant species)
+Odds ratio: 0.1 (higher than 37.4% of significant species)
+p=3.7e-04",-0.5327825426166403,weak,0.37423312883435583,0.3496932515337423,0.37423312883435583,103.0
+species_Allium campanulatum,0.052882996112530826,0.20151522025132695,0.04081632653061224,1.524537262762185e-06,23.1167888226085,5.6916057809788246e-06,-0.15729269375243898,inf,"Below average association with VCM (z-score: -0.5, ranked #85 of 163 significant species)
+Co-occurrence ratio: 4.1% (higher than 48.5% of significant species)
+Effect size (Cramer's V): 0.053 (stronger than 63.8% of significant species)
+Odds ratio: 0.2 (higher than 47.9% of significant species)
+p=5.7e-06",-0.47370208409945525,weak,0.48466257668711654,0.6380368098159509,0.4785276073619632,85.0
+species_Allium validum,0.03640121201132132,0.07054455445544554,0.014492753623188406,0.0009345981694969022,10.952848717892893,0.0015740600749421512,-0.18905311612183984,inf,"Below average association with VCM (z-score: -0.6, ranked #120 of 163 significant species)
+Co-occurrence ratio: 1.4% (higher than 26.7% of significant species)
+Effect size (Cramer's V): 0.036 (stronger than 19.0% of significant species)
+Odds ratio: 0.1 (higher than 27.0% of significant species)
+p=1.6e-03",-0.6036257533879003,weak,0.2668711656441718,0.1901840490797546,0.26993865030674846,120.5
+species_Anaphalis margaritacea,0.040938223651485396,0.058379618449649846,0.012048192771084338,0.00019764883584790367,13.85330479533889,0.00039885891198135516,-0.19200257459556516,inf,"Below average association with VCM (z-score: -0.6, ranked #129 of 163 significant species)
+Co-occurrence ratio: 1.2% (higher than 21.2% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 32.8% of significant species)
+Odds ratio: 0.1 (higher than 21.2% of significant species)
+p=4.0e-04",-0.6156912247743729,weak,0.2116564417177914,0.3282208588957055,0.2116564417177914,129.5
+species_Angelica capitellata,0.05592648208046841,0.0,0.0,3.6821059076132116e-07,25.85415837501622,1.52739208019511e-06,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.056 (stronger than 67.5% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.5e-06",-0.675156762321988,weak,0.06441717791411043,0.6748466257668712,0.06441717791411043,153.5
+species_Apocynum androsaemifolium,0.04825370948309964,0.37439701145069165,0.07342657342657342,1.1486733511340832e-05,19.24672367841696,3.430704408720462e-05,-0.11794715283257104,inf,"Below average association with VCM (z-score: -0.3, ranked #61 of 163 significant species)
+Co-occurrence ratio: 7.3% (higher than 63.2% of significant species)
+Effect size (Cramer's V): 0.048 (stronger than 54.6% of significant species)
+Odds ratio: 0.4 (higher than 63.2% of significant species)
+p=3.4e-05",-0.3127496576174666,weak,0.6319018404907976,0.5460122699386503,0.6319018404907976,61.0
+species_Aquilegia formosa,0.07312242424637876,0.37885403779443516,0.0764525993883792,2.968777833631604e-11,44.19738387609872,1.8472395409263314e-10,-0.11429613391558278,inf,"Below average association with VCM (z-score: -0.3, ranked #57 of 163 significant species)
+Co-occurrence ratio: 7.6% (higher than 65.6% of significant species)
+Effect size (Cramer's V): 0.073 (stronger than 78.5% of significant species)
+Odds ratio: 0.4 (higher than 63.8% of significant species)
+p=1.8e-10",-0.29781428399996557,weak,0.656441717791411,0.7852760736196319,0.6380368098159509,57.0
+species_Arctostaphylos nevadensis,0.058682148496181676,0.05881499650538698,0.012269938650306749,9.541990492226285e-08,28.464752567889363,4.362052796446302e-07,-0.19173502950176097,inf,"Below average association with VCM (z-score: -0.6, ranked #128 of 163 significant species)
+Co-occurrence ratio: 1.2% (higher than 22.1% of significant species)
+Effect size (Cramer's V): 0.059 (stronger than 70.6% of significant species)
+Odds ratio: 0.1 (higher than 22.1% of significant species)
+p=4.4e-07",-0.6145967670280977,weak,0.22085889570552147,0.7055214723926381,0.22085889570552147,128.0
+species_Arctostaphylos patula,0.08777827175351999,0.1329862509942463,0.028169014084507043,1.4564139154348164e-15,63.68973658415969,1.4184205089452126e-14,-0.1725521718840264,inf,"Below average association with VCM (z-score: -0.5, ranked #105 of 163 significant species)
+Co-occurrence ratio: 2.8% (higher than 36.2% of significant species)
+Effect size (Cramer's V): 0.088 (stronger than 86.5% of significant species)
+Odds ratio: 0.1 (higher than 35.6% of significant species)
+p=1.4e-14",-0.5361246604500991,weak,0.3619631901840491,0.8650306748466258,0.3558282208588957,105.0
+species_Arctostaphylos viscida,0.12738715542708015,4.67609660998592,0.47761194029850745,5.10077045079828e-31,134.13641058226025,1.2695250899764607e-29,0.369718332872203,inf,"Very strong association with VCM (z-score: 1.7, ranked #13 of 163 significant species)
+Co-occurrence ratio: 47.8% (higher than 92.6% of significant species)
+Effect size (Cramer's V): 0.127 (stronger than 95.1% of significant species)
+Odds ratio: 4.7 (higher than 92.6% of significant species)
+p=1.3e-29",1.6821636515058584,strong,0.9263803680981595,0.950920245398773,0.9263803680981595,13.0
+species_Ariolimax buttoni,0.0617082254209905,3.316123188405797,0.40229885057471265,2.019057290874474e-08,31.476143429367895,1.0278837117179141e-07,0.2788501384981134,inf,"Very strong association with VCM (z-score: 1.3, ranked #18 of 163 significant species)
+Co-occurrence ratio: 40.2% (higher than 89.6% of significant species)
+Effect size (Cramer's V): 0.062 (stronger than 73.6% of significant species)
+Odds ratio: 3.3 (higher than 89.6% of significant species)
+p=1.0e-07",1.3104453822276887,strong,0.8957055214723927,0.7361963190184049,0.8957055214723927,18.0
+species_Artemisia douglasiana,0.07431560813197201,3.478746617788252,0.41228070175438597,1.412746532347437e-11,45.6515442529972,9.041577807023597e-11,0.2908936331487016,inf,"Very strong association with VCM (z-score: 1.4, ranked #16 of 163 significant species)
+Co-occurrence ratio: 41.2% (higher than 90.8% of significant species)
+Effect size (Cramer's V): 0.074 (stronger than 79.1% of significant species)
+Odds ratio: 3.5 (higher than 90.8% of significant species)
+p=9.0e-11",1.359712202355613,strong,0.9079754601226994,0.7914110429447853,0.9079754601226994,16.0
+species_Asarum hartwegii,0.06987962098079231,3.001074920234094,0.37681159420289856,2.1076663210973759e-10,40.364212367313016,1.2759925835832763e-09,0.24809876480530718,inf,"Very strong association with VCM (z-score: 1.2, ranked #19 of 163 significant species)
+Co-occurrence ratio: 37.7% (higher than 89.0% of significant species)
+Effect size (Cramer's V): 0.070 (stronger than 77.9% of significant species)
+Odds ratio: 3.0 (higher than 89.0% of significant species)
+p=1.3e-09",1.184649469964293,strong,0.8895705521472392,0.7791411042944786,0.8895705521472392,19.0
+species_Asclepias cordifolia,0.08575772815329925,2.986819593894917,0.37264150943396224,6.3455468256398164e-15,60.79137069563343,5.922510370597163e-14,0.24306739410029657,inf,"Very strong association with VCM (z-score: 1.2, ranked #20 of 163 significant species)
+Co-occurrence ratio: 37.3% (higher than 88.3% of significant species)
+Effect size (Cramer's V): 0.086 (stronger than 85.9% of significant species)
+Odds ratio: 3.0 (higher than 88.3% of significant species)
+p=5.9e-14",1.1640674343747677,strong,0.8834355828220859,0.8588957055214724,0.8834355828220859,20.0
+species_Asclepias speciosa,0.023270611358119128,1.725,0.26136363636363635,0.03436974705328292,4.47621550373783,0.04723204503027837,0.1088062791098844,inf,"Above average association with VCM (z-score: 0.6, ranked #37 of 163 significant species)
+Co-occurrence ratio: 26.1% (higher than 77.9% of significant species)
+Effect size (Cramer's V): 0.023 (stronger than 0.6% of significant species)
+Odds ratio: 1.7 (higher than 77.9% of significant species)
+p=4.7e-02",0.6148399556143441,average,0.7791411042944786,0.006134969325153374,0.7791411042944786,37.0
+species_Bistorta bistortoides,0.03969118519602079,0.06140971239981141,0.012658227848101266,0.00030782404735545723,13.022175246600998,0.0005794335009043901,-0.19126654336704058,inf,"Below average association with VCM (z-score: -0.6, ranked #127 of 163 significant species)
+Co-occurrence ratio: 1.3% (higher than 22.7% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 27.6% of significant species)
+Odds ratio: 0.1 (higher than 24.5% of significant species)
+p=5.8e-04",-0.6126803114808228,weak,0.22699386503067484,0.27607361963190186,0.24539877300613497,127.0
+species_Boloria epithore,0.0386854611264831,0.11402621912176052,0.023255813953488372,0.00043614614245403684,12.370605484632339,0.0008074110405760683,-0.17848014039709023,inf,"Below average association with VCM (z-score: -0.6, ranked #111 of 163 significant species)
+Co-occurrence ratio: 2.3% (higher than 32.5% of significant species)
+Effect size (Cramer's V): 0.039 (stronger than 26.4% of significant species)
+Odds ratio: 0.1 (higher than 33.1% of significant species)
+p=8.1e-04",-0.5603744456603124,weak,0.32515337423312884,0.26380368098159507,0.3312883435582822,111.0
+species_Branta canadensis,0.04452948262494325,2.645922190201729,0.35064935064935066,5.154445850008121e-05,16.390443285637783,0.00012027040316685617,0.21653299262407422,inf,"Very strong association with VCM (z-score: 1.1, ranked #22 of 163 significant species)
+Co-occurrence ratio: 35.1% (higher than 86.8% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 41.7% of significant species)
+Odds ratio: 2.6 (higher than 86.5% of significant species)
+p=1.2e-04",1.0555220642261347,strong,0.8680981595092024,0.4171779141104294,0.8650306748466258,22.5
+species_Callospermophilus lateralis,0.052244612020276075,0.18745987416538265,0.03804347826086957,2.0346507052914865e-06,22.562042744243083,7.121277468520203e-06,-0.1606382438615753,inf,"Below average association with VCM (z-score: -0.5, ranked #90 of 163 significant species)
+Co-occurrence ratio: 3.8% (higher than 45.4% of significant species)
+Effect size (Cramer's V): 0.052 (stronger than 61.3% of significant species)
+Odds ratio: 0.2 (higher than 46.0% of significant species)
+p=7.1e-06",-0.48738786387000765,weak,0.4539877300613497,0.6134969325153374,0.4601226993865031,90.0
+species_Calochortus albus,0.2025517574764167,367.2375279225614,0.9863013698630136,9.86583633835765e-76,339.1309546997859,2.2099473397921138e-73,0.9834720658717955,inf,"Exceptionally strong association with VCM (z-score: 4.2, ranked #1 of 163 significant species)
+Co-occurrence ratio: 98.6% (higher than 100.0% of significant species)
+Effect size (Cramer's V): 0.203 (stronger than 100.0% of significant species)
+Odds ratio: 367.2 (higher than 100.0% of significant species)
+p=2.2e-73",4.192871352534832,very_strong,1.0,1.0,1.0,1.0
+species_Calochortus leichtlinii,0.09629051499352567,0.17326995779618595,0.03690685413005272,2.0501532622975047e-18,76.64122185362022,3.0640553749240835e-17,-0.1620096254212501,inf,"Below average association with VCM (z-score: -0.5, ranked #92 of 163 significant species)
+Co-occurrence ratio: 3.7% (higher than 44.2% of significant species)
+Effect size (Cramer's V): 0.096 (stronger than 92.0% of significant species)
+Odds ratio: 0.2 (higher than 42.9% of significant species)
+p=3.1e-17",-0.4929978309590827,weak,0.44171779141104295,0.9202453987730062,0.4294478527607362,92.0
+species_Calochortus minimus,0.04482178161925708,0.24562899786780384,0.049079754601226995,4.599727598238448e-05,16.60632876079646,0.00011001948092365885,-0.1473225439302668,inf,"Below average association with VCM (z-score: -0.4, ranked #81 of 163 significant species)
+Co-occurrence ratio: 4.9% (higher than 50.9% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 43.6% of significant species)
+Odds ratio: 0.2 (higher than 50.9% of significant species)
+p=1.1e-04",-0.4329167811464271,weak,0.50920245398773,0.43558282208588955,0.50920245398773,81.0
+species_Caloscypha fulgens,0.04516234033221185,0.18050182677842252,0.0364963503649635,4.0248394286168824e-05,16.859639312079388,0.00010017378133446462,-0.16250491430203065,inf,"Below average association with VCM (z-score: -0.5, ranked #93 of 163 significant species)
+Co-occurrence ratio: 3.6% (higher than 43.6% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 45.4% of significant species)
+Odds ratio: 0.2 (higher than 44.2% of significant species)
+p=1.0e-04",-0.49502392960475977,weak,0.43558282208588955,0.4539877300613497,0.44171779141104295,93.0
+species_Caltha leptosepala,0.031038993570352873,0.0,0.0,0.00477267998851415,7.963622461298125,0.007223515658291687,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 9.8% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=7.2e-03",-0.675156762321988,weak,0.06441717791411043,0.09815950920245399,0.06441717791411043,153.5
+species_Calvatia sculpta,0.03618993686018466,0.16912181303116147,0.03409090909090909,0.001000805425053897,10.826075506518364,0.001654815181390043,-0.16540717347168962,inf,"Below average association with VCM (z-score: -0.5, ranked #98 of 163 significant species)
+Co-occurrence ratio: 3.4% (higher than 40.5% of significant species)
+Effect size (Cramer's V): 0.036 (stronger than 17.8% of significant species)
+Odds ratio: 0.2 (higher than 42.3% of significant species)
+p=1.7e-03",-0.5068963208520316,weak,0.4049079754601227,0.17791411042944785,0.4233128834355828,98.0
+species_Calyptridium monospermum,0.08357613597681458,0.1674497226074896,0.0351288056206089,2.994969798311558e-14,57.737766192800805,2.484715684525144e-13,-0.16415491063203136,inf,"Below average association with VCM (z-score: -0.5, ranked #95 of 163 significant species)
+Co-occurrence ratio: 3.5% (higher than 42.3% of significant species)
+Effect size (Cramer's V): 0.084 (stronger than 84.0% of significant species)
+Odds ratio: 0.2 (higher than 40.5% of significant species)
+p=2.5e-13",-0.5017736376222671,weak,0.4233128834355828,0.8404907975460123,0.4049079754601227,95.0
+species_Camponotus modoc,0.03657592678126832,0.28367560670261943,0.056,0.0008829383384505226,11.058241738965323,0.001498319604643311,-0.1389729966428259,inf,"Below average association with VCM (z-score: -0.4, ranked #72 of 163 significant species)
+Co-occurrence ratio: 5.6% (higher than 56.4% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 19.6% of significant species)
+Odds ratio: 0.3 (higher than 57.1% of significant species)
+p=1.5e-03",-0.398760943800673,weak,0.5644171779141104,0.19631901840490798,0.5705521472392638,72.0
+species_Castilleja applegatei,0.04265241531804146,0.2400670372792675,0.04794520547945205,0.00010538240411793995,15.037743049336658,0.00023371939131107473,-0.14869142191021012,inf,"Below average association with VCM (z-score: -0.4, ranked #82 of 163 significant species)
+Co-occurrence ratio: 4.8% (higher than 50.3% of significant species)
+Effect size (Cramer's V): 0.043 (stronger than 38.7% of significant species)
+Odds ratio: 0.2 (higher than 50.3% of significant species)
+p=2.3e-04",-0.4385165067386704,weak,0.5030674846625767,0.38650306748466257,0.5030674846625767,82.0
+species_Castilleja miniata,0.05261022345536395,0.038053748231966056,0.007936507936507936,1.725328677960485e-06,22.878929168984822,6.233445546179816e-06,-0.19696348349099774,inf,"Below average association with VCM (z-score: -0.6, ranked #142 of 163 significant species)
+Co-occurrence ratio: 0.8% (higher than 13.5% of significant species)
+Effect size (Cramer's V): 0.053 (stronger than 62.6% of significant species)
+Odds ratio: 0.0 (higher than 14.1% of significant species)
+p=6.2e-06",-0.6359850193342733,weak,0.13496932515337423,0.6257668711656442,0.1411042944785276,142.0
+species_Ceanothus cordulatus,0.08070723825438901,0.11094229451544672,0.023391812865497075,2.172891050239552e-13,53.8418995627748,1.6783710181160677e-12,-0.17831605237976958,inf,"Below average association with VCM (z-score: -0.6, ranked #110 of 163 significant species)
+Co-occurrence ratio: 2.3% (higher than 33.1% of significant species)
+Effect size (Cramer's V): 0.081 (stronger than 82.8% of significant species)
+Odds ratio: 0.1 (higher than 31.9% of significant species)
+p=1.7e-12",-0.5597032040424078,weak,0.3312883435582822,0.8282208588957055,0.31901840490797545,110.0
+species_Ceanothus integerrimus,0.04674136669130576,1.962881456880104,0.28431372549019607,2.14142730858778e-05,18.05918780717438,5.9219718163415154e-05,0.13649646108625904,inf,"Above average association with VCM (z-score: 0.7, ranked #31 of 163 significant species)
+Co-occurrence ratio: 28.4% (higher than 81.6% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 50.9% of significant species)
+Odds ratio: 2.0 (higher than 81.6% of significant species)
+p=5.9e-05",0.7281133247084978,average,0.8159509202453987,0.50920245398773,0.8159509202453987,31.0
+species_Ceanothus prostratus,0.04870984083121057,0.31698022959183675,0.06276150627615062,9.485590913420388e-06,19.612313276366244,2.9510727286196762e-05,-0.1308149743280308,inf,"Below average association with VCM (z-score: -0.4, ranked #66 of 163 significant species)
+Co-occurrence ratio: 6.3% (higher than 60.1% of significant species)
+Effect size (Cramer's V): 0.049 (stronger than 56.4% of significant species)
+Odds ratio: 0.3 (higher than 60.1% of significant species)
+p=3.0e-05",-0.36538858555721476,weak,0.6012269938650306,0.5644171779141104,0.6012269938650306,66.0
+species_Ceanothus velutinus,0.05735414589910988,0.061146496815286625,0.012738853503184714,1.843155481198813e-07,27.19099089631422,8.257336555770682e-07,-0.1911692653543534,inf,"Below average association with VCM (z-score: -0.6, ranked #126 of 163 significant species)
+Co-occurrence ratio: 1.3% (higher than 23.3% of significant species)
+Effect size (Cramer's V): 0.057 (stronger than 69.9% of significant species)
+Odds ratio: 0.1 (higher than 23.9% of significant species)
+p=8.3e-07",-0.6122823723034905,weak,0.2331288343558282,0.6993865030674846,0.2392638036809816,126.0
+species_Certhia americana,0.02998679688521815,0.38515418614102825,0.0743801652892562,0.006404371785461099,7.432853224140429,0.009255350193182492,-0.11679660687768331,inf,"Below average association with VCM (z-score: -0.3, ranked #60 of 163 significant species)
+Co-occurrence ratio: 7.4% (higher than 63.8% of significant species)
+Effect size (Cramer's V): 0.030 (stronger than 5.5% of significant species)
+Odds ratio: 0.4 (higher than 64.4% of significant species)
+p=9.3e-03",-0.3080430718420832,weak,0.6380368098159509,0.05521472392638037,0.6441717791411042,60.0
+species_Chamaebatia foliolosa,0.09105802634667412,2.2199133984189934,0.30018083182640143,1.2445173400691098e-16,68.5380693643451,1.2671449280703664e-15,0.15564074673435033,inf,"Above average association with VCM (z-score: 0.8, ranked #30 of 163 significant species)
+Co-occurrence ratio: 30.0% (higher than 82.2% of significant species)
+Effect size (Cramer's V): 0.091 (stronger than 87.1% of significant species)
+Odds ratio: 2.2 (higher than 84.0% of significant species)
+p=1.3e-15",0.8064276433399303,average,0.8220858895705522,0.8711656441717791,0.8404907975460123,30.0
+species_Chamaenerion angustifolium,0.09250593194944581,0.05988556191322704,0.01288659793814433,4.0857218183134354e-17,70.73503398727622,5.084453818345608e-16,-0.19099100590326945,inf,"Below average association with VCM (z-score: -0.6, ranked #125 of 163 significant species)
+Co-occurrence ratio: 1.3% (higher than 23.9% of significant species)
+Effect size (Cramer's V): 0.093 (stronger than 89.6% of significant species)
+Odds ratio: 0.1 (higher than 22.7% of significant species)
+p=5.1e-16",-0.6115531590171935,weak,0.2392638036809816,0.8957055214723927,0.22699386503067484,125.0
+species_Charina bottae,0.04996729200849958,0.1339375729928829,0.0273972602739726,5.548464901809304e-06,20.637972417297597,1.7755087685789773e-05,-0.1734833231025168,inf,"Below average association with VCM (z-score: -0.5, ranked #106 of 163 significant species)
+Co-occurrence ratio: 2.7% (higher than 35.6% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 57.7% of significant species)
+Odds ratio: 0.1 (higher than 36.2% of significant species)
+p=1.8e-05",-0.5399337591315208,weak,0.3558282208588957,0.5766871165644172,0.3619631901840491,106.0
+species_Chimaphila menziesii,0.03702059725945728,0.3010369972410165,0.05925925925925926,0.0007631598734984994,11.32875652088037,0.0013251768346020454,-0.1350405726117301,inf,"Below average association with VCM (z-score: -0.4, ranked #68 of 163 significant species)
+Co-occurrence ratio: 5.9% (higher than 58.9% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 21.5% of significant species)
+Odds ratio: 0.3 (higher than 58.9% of significant species)
+p=1.3e-03",-0.3826744146803848,weak,0.588957055214724,0.2147239263803681,0.588957055214724,68.0
+species_Chlorogalum pomeridianum,0.09211092220642868,4.973684210526316,0.5,5.545933075951667e-17,70.13223216701523,6.538363205332491e-16,0.39673040432053713,inf,"Very strong association with VCM (z-score: 1.8, ranked #11 of 163 significant species)
+Co-occurrence ratio: 50.0% (higher than 93.9% of significant species)
+Effect size (Cramer's V): 0.092 (stronger than 89.0% of significant species)
+Odds ratio: 5.0 (higher than 93.9% of significant species)
+p=6.5e-16",1.7926630459040387,strong,0.9386503067484663,0.8895705521472392,0.9386503067484663,11.0
+species_Chlosyne hoffmanni,0.04473232149664489,0.0,0.0,4.76318745275559e-05,16.540105527837056,0.0001123109462544476,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 42.3% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.1e-04",-0.675156762321988,weak,0.06441717791411043,0.4233128834355828,0.06441717791411043,153.5
+species_Cirsium andersonii,0.07539549063786145,0.03784407941296979,0.008032128514056224,7.142588723917706e-12,46.98791175045818,4.7057055122281363e-11,-0.19684811351668538,inf,"Below average association with VCM (z-score: -0.6, ranked #141 of 163 significant species)
+Co-occurrence ratio: 0.8% (higher than 14.1% of significant species)
+Effect size (Cramer's V): 0.075 (stronger than 79.8% of significant species)
+Odds ratio: 0.0 (higher than 13.5% of significant species)
+p=4.7e-11",-0.635513070623578,weak,0.1411042944785276,0.7975460122699386,0.13496932515337423,141.0
+species_Collinsia torreyi,0.0456078083796234,0.04873278873076812,0.010101010101010102,3.375225384432761e-05,17.193876682800763,8.690235472562511e-05,-0.19435192679974464,inf,"Below average association with VCM (z-score: -0.6, ranked #136 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 16.9% of significant species)
+Effect size (Cramer's V): 0.046 (stronger than 47.5% of significant species)
+Odds ratio: 0.0 (higher than 16.9% of significant species)
+p=8.7e-05",-0.6253018167012602,weak,0.1687116564417178,0.4754601226993865,0.1687116564417178,136.5
+species_Corallorhiza maculata,0.0644181630323393,0.16831677557196534,0.03461538461538462,4.720377240319282e-09,34.301417955458994,2.5789378093451687e-08,-0.16477437319650134,inf,"Below average association with VCM (z-score: -0.5, ranked #96 of 163 significant species)
+Co-occurrence ratio: 3.5% (higher than 41.7% of significant species)
+Effect size (Cramer's V): 0.064 (stronger than 75.5% of significant species)
+Odds ratio: 0.2 (higher than 41.7% of significant species)
+p=2.6e-08",-0.5043076986755708,weak,0.4171779141104294,0.754601226993865,0.4171779141104294,96.0
+species_Cornus sericea,0.034133332682534566,0.2521836506159015,0.05,0.0019136337116232231,9.630587650537068,0.003101761746253643,-0.14621223179097945,inf,"Below average association with VCM (z-score: -0.4, ranked #78 of 163 significant species)
+Co-occurrence ratio: 5.0% (higher than 52.5% of significant species)
+Effect size (Cramer's V): 0.034 (stronger than 16.0% of significant species)
+Odds ratio: 0.3 (higher than 52.8% of significant species)
+p=3.1e-03",-0.4283747814993853,weak,0.5245398773006135,0.15950920245398773,0.5276073619631901,78.5
+species_Crotalus oreganus,0.05971880374781426,2.4556173820879703,0.3313253012048193,5.6516259728408075e-08,29.479329417164244,2.637425453992377e-07,0.19321776963348944,inf,"Above average association with VCM (z-score: 1.0, ranked #25 of 163 significant species)
+Co-occurrence ratio: 33.1% (higher than 85.3% of significant species)
+Effect size (Cramer's V): 0.060 (stronger than 71.2% of significant species)
+Odds ratio: 2.5 (higher than 85.3% of significant species)
+p=2.6e-07",0.9601455202374274,average,0.852760736196319,0.7116564417177914,0.852760736196319,25.0
+species_Cryptoporus volvatus,0.06001283298282632,0.35060142920377074,0.06982543640897755,4.863787748084503e-08,29.770330653614998,2.3180605437679333e-07,-0.12229206577775385,inf,"Below average association with VCM (z-score: -0.3, ranked #63 of 163 significant species)
+Co-occurrence ratio: 7.0% (higher than 62.0% of significant species)
+Effect size (Cramer's V): 0.060 (stronger than 71.8% of significant species)
+Odds ratio: 0.4 (higher than 62.0% of significant species)
+p=2.3e-07",-0.33052357214578476,weak,0.6196319018404908,0.7177914110429447,0.6196319018404908,63.0
+species_Darmera peltata,0.037536957315053424,1.8920865712930235,0.2781456953642384,0.000643066601504029,11.646985477526734,0.0011432295137849403,0.12905449100580857,inf,"Above average association with VCM (z-score: 0.7, ranked #32 of 163 significant species)
+Co-occurrence ratio: 27.8% (higher than 81.0% of significant species)
+Effect size (Cramer's V): 0.038 (stronger than 23.3% of significant species)
+Odds ratio: 1.9 (higher than 81.0% of significant species)
+p=1.1e-03",0.6976701508633513,average,0.8098159509202454,0.2331288343558282,0.8098159509202454,32.0
+species_Dendragapus fuliginosus,0.045329143573468234,0.0492424794762245,0.01020408163265306,3.768803930078501e-05,16.98440857122246,9.485528992557126e-05,-0.19422756695730403,inf,"Below average association with VCM (z-score: -0.6, ranked #135 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 17.8% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 46.0% of significant species)
+Odds ratio: 0.0 (higher than 18.4% of significant species)
+p=9.5e-05",-0.6247930927663548,weak,0.17791411042944785,0.4601226993865031,0.18404907975460122,135.0
+species_Dicentra formosa,0.049628471879138596,2.1399608706285154,0.3023255813953488,6.41892648923178e-06,20.359035837269154,2.025126103644956e-05,0.15822847114493552,inf,"Above average association with VCM (z-score: 0.8, ranked #29 of 163 significant species)
+Co-occurrence ratio: 30.2% (higher than 82.8% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 57.1% of significant species)
+Odds ratio: 2.1 (higher than 82.2% of significant species)
+p=2.0e-05",0.8170133542797955,average,0.8282208588957055,0.5705521472392638,0.8220858895705522,29.0
+species_Digitalis purpurea,0.042169632457411614,2.6692373047513236,0.35294117647058826,0.0001260969329900671,14.699245134569253,0.0002715933941324522,0.21929817029716575,inf,"Very strong association with VCM (z-score: 1.1, ranked #21 of 163 significant species)
+Co-occurrence ratio: 35.3% (higher than 87.7% of significant species)
+Effect size (Cramer's V): 0.042 (stronger than 36.8% of significant species)
+Odds ratio: 2.7 (higher than 87.1% of significant species)
+p=2.7e-04",1.0668336905434428,strong,0.8773006134969326,0.36809815950920244,0.8711656441717791,21.0
+species_Diplacus torreyi,0.062212489999461974,0.2786914695816978,0.05621301775147929,1.5475493357196285e-08,31.992676076039466,8.061652353516204e-08,-0.13871598237721094,inf,"Below average association with VCM (z-score: -0.4, ranked #71 of 163 significant species)
+Co-occurrence ratio: 5.6% (higher than 57.1% of significant species)
+Effect size (Cramer's V): 0.062 (stronger than 74.2% of significant species)
+Odds ratio: 0.3 (higher than 56.4% of significant species)
+p=8.1e-08",-0.39770956494746423,weak,0.5705521472392638,0.7423312883435583,0.5644171779141104,71.0
+species_Draperia systyla,0.029787758048425317,0.25612095440585875,0.05063291139240506,0.006764316024210919,7.334508837272924,0.009712864034764398,-0.14544859939138519,inf,"Below average association with VCM (z-score: -0.4, ranked #77 of 163 significant species)
+Co-occurrence ratio: 5.1% (higher than 53.4% of significant species)
+Effect size (Cramer's V): 0.030 (stronger than 4.9% of significant species)
+Odds ratio: 0.3 (higher than 54.0% of significant species)
+p=9.7e-03",-0.4252509589573271,weak,0.5337423312883436,0.049079754601226995,0.5398773006134969,77.0
+species_Elgaria multicarinata,0.15221033654166627,11.655497771173849,0.696969696969697,1.4910236225994834e-43,191.5065768233523,5.5664881910380715e-42,0.634382063224568,inf,"Exceptionally strong association with VCM (z-score: 2.8, ranked #7 of 163 significant species)
+Co-occurrence ratio: 69.7% (higher than 96.3% of significant species)
+Effect size (Cramer's V): 0.152 (stronger than 96.9% of significant species)
+Odds ratio: 11.7 (higher than 96.3% of significant species)
+p=5.6e-42",2.7648344855082314,very_strong,0.9631901840490797,0.9693251533742331,0.9631901840490797,7.0
+species_Ensatina eschscholtzii,0.04481224894744454,2.1524490167516386,0.30434782608695654,4.616888931617827e-05,16.599265862245534,0.00011001948092365885,0.16066838861987778,inf,"Above average association with VCM (z-score: 0.8, ranked #28 of 163 significant species)
+Co-occurrence ratio: 30.4% (higher than 83.4% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 42.9% of significant species)
+Odds ratio: 2.2 (higher than 82.8% of significant species)
+p=1.1e-04",0.8269944252938545,average,0.8343558282208589,0.4294478527607362,0.8282208588957055,28.0
+species_Eriogonum nudum,0.044874107880646746,0.2626430111092688,0.05232558139534884,4.506598715073871e-05,16.645124823121705,0.00011001948092365885,-0.1434063266947959,inf,"Below average association with VCM (z-score: -0.4, ranked #74 of 163 significant species)
+Co-occurrence ratio: 5.2% (higher than 55.2% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 44.8% of significant species)
+Odds ratio: 0.3 (higher than 55.2% of significant species)
+p=1.1e-04",-0.4168965498332177,weak,0.5521472392638037,0.44785276073619634,0.5521472392638037,74.0
+species_Eriogonum umbellatum,0.044840703180672715,0.3198761207157798,0.06310679611650485,4.565842819666278e-05,16.620352477919628,0.00011001948092365885,-0.13039836860326537,inf,"Below average association with VCM (z-score: -0.4, ranked #65 of 163 significant species)
+Co-occurrence ratio: 6.3% (higher than 60.7% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 44.2% of significant species)
+Odds ratio: 0.3 (higher than 60.7% of significant species)
+p=1.1e-04",-0.36368435934200405,weak,0.6073619631901841,0.44171779141104295,0.6073619631901841,65.0
+species_Erythranthe breweri,0.04844640427614952,0.08076337159787446,0.016666666666666666,1.0596548808297633e-05,19.400749085523586,3.207603963592797e-05,-0.18643020483627695,inf,"Below average association with VCM (z-score: -0.6, ranked #118 of 163 significant species)
+Co-occurrence ratio: 1.7% (higher than 28.2% of significant species)
+Effect size (Cramer's V): 0.048 (stronger than 55.2% of significant species)
+Odds ratio: 0.1 (higher than 28.2% of significant species)
+p=3.2e-05",-0.5928961020477871,weak,0.2822085889570552,0.5521472392638037,0.2822085889570552,118.0
+species_Erythranthe cardinalis,0.038340419642290485,1.874211307682791,0.27607361963190186,0.0004906368321728374,12.15091897581576,0.0008863116968283514,0.12655445042728078,inf,"Above average association with VCM (z-score: 0.7, ranked #33 of 163 significant species)
+Co-occurrence ratio: 27.6% (higher than 80.4% of significant species)
+Effect size (Cramer's V): 0.038 (stronger than 24.5% of significant species)
+Odds ratio: 1.9 (higher than 80.4% of significant species)
+p=8.9e-04",0.6874431317905422,average,0.803680981595092,0.24539877300613497,0.803680981595092,33.0
+species_Erythranthe erubescens,0.06350713592645943,0.0,0.0,7.745148770821626e-09,33.33807008806711,4.1307460111048675e-08,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.064 (stronger than 74.8% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=4.1e-08",-0.675156762321988,weak,0.06441717791411043,0.7484662576687117,0.06441717791411043,153.5
+species_Erythranthe moschata,0.0402096655106359,0.38832402153141454,0.07547169811320754,0.0002564170952057382,13.364610979144722,0.0004909181993682509,-0.11547962974693134,inf,"Below average association with VCM (z-score: -0.3, ranked #59 of 163 significant species)
+Co-occurrence ratio: 7.5% (higher than 64.4% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 28.8% of significant species)
+Odds ratio: 0.4 (higher than 65.0% of significant species)
+p=4.9e-04",-0.30265565919353116,weak,0.6441717791411042,0.2883435582822086,0.6503067484662577,59.0
+species_Erythranthe primuloides,0.0456078083796234,0.04873278873076812,0.010101010101010102,3.375225384432761e-05,17.193876682800763,8.690235472562511e-05,-0.19435192679974464,inf,"Below average association with VCM (z-score: -0.6, ranked #136 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 16.9% of significant species)
+Effect size (Cramer's V): 0.046 (stronger than 47.5% of significant species)
+Odds ratio: 0.0 (higher than 16.9% of significant species)
+p=8.7e-05",-0.6253018167012602,weak,0.1687116564417178,0.4754601226993865,0.1687116564417178,136.5
+species_Erythronium purpurascens,0.03300281844395387,0.0,0.0,0.002695055726948351,9.003211684671712,0.0042513555129326105,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.033 (stronger than 13.5% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=4.3e-03",-0.675156762321988,weak,0.06441717791411043,0.13496932515337423,0.06441717791411043,153.5
+species_Fragaria virginiana,0.03243128597052461,0.08429489565497904,0.017241379310344827,0.0031924483184595635,8.694082167996289,0.005000758205139457,-0.18573679150790975,inf,"Below average association with VCM (z-score: -0.6, ranked #116 of 163 significant species)
+Co-occurrence ratio: 1.7% (higher than 29.1% of significant species)
+Effect size (Cramer's V): 0.032 (stronger than 12.9% of significant species)
+Odds ratio: 0.1 (higher than 29.4% of significant species)
+p=5.0e-03",-0.5900595275555732,weak,0.29141104294478526,0.12883435582822086,0.294478527607362,116.5
+species_Fritillaria atropurpurea,0.026227419946055392,0.291433112127655,0.05714285714285714,0.017100831168745133,5.6859958863830675,0.024244216340499426,-0.13759409470984427,inf,"Below average association with VCM (z-score: -0.4, ranked #70 of 163 significant species)
+Co-occurrence ratio: 5.7% (higher than 57.7% of significant species)
+Effect size (Cramer's V): 0.026 (stronger than 3.7% of significant species)
+Odds ratio: 0.3 (higher than 57.7% of significant species)
+p=2.4e-02",-0.3931202128104421,weak,0.5766871165644172,0.03680981595092025,0.5766871165644172,70.0
+species_Hackelia mundula,0.04244894193579559,0.05498382350550326,0.011363636363636364,0.00011368734360978575,14.894610142358996,0.00024724237833584475,-0.19282851872984705,inf,"Below average association with VCM (z-score: -0.6, ranked #131 of 163 significant species)
+Co-occurrence ratio: 1.1% (higher than 20.2% of significant species)
+Effect size (Cramer's V): 0.042 (stronger than 37.4% of significant species)
+Odds ratio: 0.1 (higher than 20.2% of significant species)
+p=2.5e-04",-0.6190699484986693,weak,0.20245398773006135,0.37423312883435583,0.20245398773006135,131.0
+species_Haemorhous cassinii,0.037080827207874034,0.06850878965447565,0.014084507042253521,0.0007481494220225657,11.365648711909465,0.00130926148853949,-0.18954568162147606,inf,"Below average association with VCM (z-score: -0.6, ranked #123 of 163 significant species)
+Co-occurrence ratio: 1.4% (higher than 25.2% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 22.1% of significant species)
+Odds ratio: 0.1 (higher than 25.2% of significant species)
+p=1.3e-03",-0.6056407113860436,weak,0.25153374233128833,0.22085889570552147,0.25153374233128833,123.0
+species_Helenium bigelovii,0.02407273450283501,0.41039876662971175,0.07865168539325842,0.02862345808085482,4.790118452905966,0.039823941677711056,-0.11164285046552708,inf,"Below average association with VCM (z-score: -0.3, ranked #55 of 163 significant species)
+Co-occurrence ratio: 7.9% (higher than 66.9% of significant species)
+Effect size (Cramer's V): 0.024 (stronger than 1.8% of significant species)
+Odds ratio: 0.4 (higher than 66.9% of significant species)
+p=4.0e-02",-0.2869603879942984,weak,0.6687116564417178,0.018404907975460124,0.6687116564417178,55.0
+species_Heracleum maximum,0.05046387143090929,0.13203795574454683,0.02702702702702703,4.474026996470338e-06,21.0502147754283,1.5184576472869026e-05,-0.1739300240249007,inf,"Below average association with VCM (z-score: -0.5, ranked #107 of 163 significant species)
+Co-occurrence ratio: 2.7% (higher than 35.0% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 60.1% of significant species)
+Odds ratio: 0.1 (higher than 35.0% of significant species)
+p=1.5e-05",-0.541761097012473,weak,0.3496932515337423,0.6012269938650306,0.3496932515337423,107.0
+species_Heteromeles arbutifolia,0.18514874171199752,49.35751405239156,0.9066666666666666,1.3919978794476348e-63,283.3589475045923,1.039358416654234e-61,0.8873896754731668,inf,"Exceptionally strong association with VCM (z-score: 3.8, ranked #2 of 163 significant species)
+Co-occurrence ratio: 90.7% (higher than 99.4% of significant species)
+Effect size (Cramer's V): 0.185 (stronger than 98.8% of significant species)
+Odds ratio: 49.4 (higher than 99.4% of significant species)
+p=1.0e-61",3.7998231565945404,very_strong,0.9938650306748467,0.9877300613496932,0.9938650306748467,2.0
+species_Hippodamia convergens,0.03377886863042824,1.6210139344811416,0.24786324786324787,0.0021327755930792423,9.431604910556992,0.003412440948926788,0.09251753128559434,inf,"Above average association with VCM (z-score: 0.5, ranked #39 of 163 significant species)
+Co-occurrence ratio: 24.8% (higher than 76.7% of significant species)
+Effect size (Cramer's V): 0.034 (stronger than 14.7% of significant species)
+Odds ratio: 1.6 (higher than 76.1% of significant species)
+p=3.4e-03",0.548206903294333,average,0.7668711656441718,0.147239263803681,0.7607361963190185,39.0
+species_Hosackia crassifolia,0.023554484861443716,0.49380940969726017,0.09322033898305085,0.0322324545387946,4.586090516089253,0.044568332201790066,-0.09406519894411061,inf,"Below average association with VCM (z-score: -0.2, ranked #46 of 163 significant species)
+Co-occurrence ratio: 9.3% (higher than 72.4% of significant species)
+Effect size (Cramer's V): 0.024 (stronger than 1.2% of significant species)
+Odds ratio: 0.5 (higher than 73.0% of significant species)
+p=4.5e-02",-0.2150547641781525,weak,0.7239263803680982,0.012269938650306749,0.7300613496932515,46.0
+species_Hosackia oblongifolia,0.03659933991591992,0.4286319837106675,0.0825242718446602,0.0008762202748371404,11.072403565735152,0.0014982697829276292,-0.10697042313998524,inf,"Below average association with VCM (z-score: -0.3, ranked #52 of 163 significant species)
+Co-occurrence ratio: 8.3% (higher than 68.7% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 20.2% of significant species)
+Odds ratio: 0.4 (higher than 68.7% of significant species)
+p=1.5e-03",-0.2678466968866243,weak,0.6871165644171779,0.20245398773006135,0.6871165644171779,52.0
+species_Ipomopsis aggregata,0.0678895429539746,0.04565786490219117,0.009615384615384616,6.728210372652931e-10,38.097911691301384,3.966102956511201e-09,-0.19493785298047453,inf,"Below average association with VCM (z-score: -0.6, ranked #139 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 15.3% of significant species)
+Effect size (Cramer's V): 0.068 (stronger than 77.3% of significant species)
+Odds ratio: 0.0 (higher than 14.7% of significant species)
+p=4.0e-09",-0.6276986890868721,weak,0.15337423312883436,0.7730061349693251,0.147239263803681,139.0
+species_Iris hartwegii,0.02787144240967783,1.4244523691245004,0.2246153846153846,0.011276772728311665,6.421171818298836,0.016089153446763142,0.0644680731616945,inf,"Above average association with VCM (z-score: 0.4, ranked #42 of 163 significant species)
+Co-occurrence ratio: 22.5% (higher than 74.8% of significant species)
+Effect size (Cramer's V): 0.028 (stronger than 4.3% of significant species)
+Odds ratio: 1.4 (higher than 74.8% of significant species)
+p=1.6e-02",0.43346382845031933,average,0.7484662576687117,0.04294478527607362,0.7484662576687117,42.0
+species_Kelloggia galioides,0.05295050198261175,0.06988676574663835,0.014492753623188406,1.4784280546579877e-06,23.175844287300578,5.6130149871760885e-06,-0.18905311612183984,inf,"Below average association with VCM (z-score: -0.6, ranked #120 of 163 significant species)
+Co-occurrence ratio: 1.4% (higher than 26.7% of significant species)
+Effect size (Cramer's V): 0.053 (stronger than 64.4% of significant species)
+Odds ratio: 0.1 (higher than 26.4% of significant species)
+p=5.6e-06",-0.6036257533879003,weak,0.2668711656441718,0.6441717791411042,0.26380368098159507,120.5
+species_Laetiporus conifericola,0.037389019210186676,0.11979830148619958,0.024390243902439025,0.0006755416264116786,11.555361769492588,0.0011915064906788662,-0.17711140620382998,inf,"Below average association with VCM (z-score: -0.6, ranked #109 of 163 significant species)
+Co-occurrence ratio: 2.4% (higher than 33.7% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 22.7% of significant species)
+Odds ratio: 0.1 (higher than 33.7% of significant species)
+p=1.2e-03",-0.5547753082621818,weak,0.3374233128834356,0.22699386503067484,0.3374233128834356,109.0
+species_Lathyrus latifolius,0.06446001425649839,2.678574577516532,0.35064935064935066,4.6134701562062805e-09,34.34600235807797,2.5789378093451687e-08,0.21653299262407422,inf,"Very strong association with VCM (z-score: 1.1, ranked #22 of 163 significant species)
+Co-occurrence ratio: 35.1% (higher than 86.8% of significant species)
+Effect size (Cramer's V): 0.064 (stronger than 76.1% of significant species)
+Odds ratio: 2.7 (higher than 87.7% of significant species)
+p=2.6e-08",1.0555220642261347,strong,0.8680981595092024,0.7607361963190185,0.8773006134969326,22.5
+species_Lathyrus sulphureus,0.11382771140768468,6.52408576757876,0.5656565656565656,4.231619365681469e-25,107.10047801171595,8.617115799205902e-24,0.47594762395521406,inf,"Exceptionally strong association with VCM (z-score: 2.1, ranked #9 of 163 significant species)
+Co-occurrence ratio: 56.6% (higher than 95.1% of significant species)
+Effect size (Cramer's V): 0.114 (stronger than 93.9% of significant species)
+Odds ratio: 6.5 (higher than 95.1% of significant species)
+p=8.6e-24",2.1167201924387693,very_strong,0.950920245398773,0.9386503067484663,0.950920245398773,9.0
+species_Leptosiphon ciliatus,0.06117582745943778,0.19354744226234935,0.039525691699604744,2.667674853483506e-08,30.935355098957487,1.3279092604006785e-07,-0.15884989525778243,inf,"Below average association with VCM (z-score: -0.5, ranked #88 of 163 significant species)
+Co-occurrence ratio: 4.0% (higher than 46.6% of significant species)
+Effect size (Cramer's V): 0.061 (stronger than 73.0% of significant species)
+Odds ratio: 0.2 (higher than 46.6% of significant species)
+p=1.3e-07",-0.48007219250174876,weak,0.4662576687116564,0.7300613496932515,0.4662576687116564,88.0
+species_Letharia columbiana,0.03038986715259876,0.414810328196155,0.07971014492753623,0.0057277659389971085,7.634014915217801,0.008385748825721257,-0.11036577755495339,inf,"Below average association with VCM (z-score: -0.3, ranked #54 of 163 significant species)
+Co-occurrence ratio: 8.0% (higher than 67.5% of significant species)
+Effect size (Cramer's V): 0.030 (stronger than 6.7% of significant species)
+Odds ratio: 0.4 (higher than 68.1% of significant species)
+p=8.4e-03",-0.2817362131845055,weak,0.6748466257668712,0.06748466257668712,0.6809815950920245,54.0
+species_Letharia vulpina,0.05602590250186287,0.1871547495900976,0.0380952380952381,3.5107274225006787e-07,25.946161874991386,1.4837791370568907e-06,-0.1605757935928714,inf,"Below average association with VCM (z-score: -0.5, ranked #89 of 163 significant species)
+Co-occurrence ratio: 3.8% (higher than 46.0% of significant species)
+Effect size (Cramer's V): 0.056 (stronger than 68.1% of significant species)
+Odds ratio: 0.2 (higher than 45.4% of significant species)
+p=1.5e-06",-0.48713239598095737,weak,0.4601226993865031,0.6809815950920245,0.4539877300613497,89.0
+species_Leuconotopicus albolarvatus,0.04141843947779308,0.4768092632675966,0.0914826498422713,0.00016610782242088728,14.180216606459176,0.0003510203039837618,-0.09616178899485996,inf,"Below average association with VCM (z-score: -0.2, ranked #48 of 163 significant species)
+Co-occurrence ratio: 9.1% (higher than 71.2% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 35.6% of significant species)
+Odds ratio: 0.5 (higher than 71.2% of significant species)
+p=3.5e-04",-0.2236313715424626,weak,0.7116564417177914,0.3558282208588957,0.7116564417177914,48.0
+species_Lilium kelleyanum,0.030991977260251408,0.3925675281488828,0.07575757575757576,0.004836679755054612,7.9395149420965065,0.007264368501094728,-0.11513470716506771,inf,"Below average association with VCM (z-score: -0.3, ranked #58 of 163 significant species)
+Co-occurrence ratio: 7.6% (higher than 65.0% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 9.2% of significant species)
+Odds ratio: 0.4 (higher than 65.6% of significant species)
+p=7.3e-03",-0.3012446701665294,weak,0.6503067484662577,0.09202453987730061,0.656441717791411,58.0
+species_Lilium parvum,0.09147498785757964,0.06106647049947186,0.013123359580052493,9.046054863230373e-17,69.16718835369754,1.0131581446818017e-15,-0.19070534370329678,inf,"Below average association with VCM (z-score: -0.6, ranked #124 of 163 significant species)
+Co-occurrence ratio: 1.3% (higher than 24.5% of significant species)
+Effect size (Cramer's V): 0.091 (stronger than 88.3% of significant species)
+Odds ratio: 0.1 (higher than 23.3% of significant species)
+p=1.0e-15",-0.6103845888777353,weak,0.24539877300613497,0.8834355828220859,0.2331288343558282,124.0
+species_Lilium washingtonianum,0.03617788737502243,0.3598085704250088,0.07006369426751592,0.001004709217272526,10.818867595647127,0.001654815181390043,-0.12200459833377807,inf,"Below average association with VCM (z-score: -0.3, ranked #62 of 163 significant species)
+Co-occurrence ratio: 7.0% (higher than 62.6% of significant species)
+Effect size (Cramer's V): 0.036 (stronger than 17.2% of significant species)
+Odds ratio: 0.4 (higher than 62.6% of significant species)
+p=1.7e-03",-0.32934761722025174,weak,0.6257668711656442,0.17177914110429449,0.6257668711656442,62.0
+species_Limenitis bredowii,0.08397153739104406,2.5814049133581927,0.3378839590443686,2.2672306360978643e-14,58.28537701294701,2.0314386499436863e-13,0.20113104735961912,inf,"Above average association with VCM (z-score: 1.0, ranked #24 of 163 significant species)
+Co-occurrence ratio: 33.8% (higher than 85.9% of significant species)
+Effect size (Cramer's V): 0.084 (stronger than 85.3% of significant species)
+Odds ratio: 2.6 (higher than 85.9% of significant species)
+p=2.0e-13",0.9925166917010606,average,0.8588957055214724,0.852760736196319,0.8588957055214724,24.0
+species_Lonicera conjugialis,0.05638521659048795,0.0,0.0,2.9532622893392615e-07,26.280033044538264,1.272174524638451e-06,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.056 (stronger than 68.7% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.3e-06",-0.675156762321988,weak,0.06441717791411043,0.6871165644171779,0.06441717791411043,153.5
+species_Lonicera hispidula,0.1338943681619659,12.408203193236208,0.7123287671232876,4.31036851040216e-34,148.19038328951743,1.206903182912605e-32,0.6529133833077062,inf,"Exceptionally strong association with VCM (z-score: 2.8, ranked #6 of 163 significant species)
+Co-occurrence ratio: 71.2% (higher than 96.9% of significant species)
+Effect size (Cramer's V): 0.134 (stronger than 95.7% of significant species)
+Odds ratio: 12.4 (higher than 96.9% of significant species)
+p=1.2e-32",2.8406413206301595,very_strong,0.9693251533742331,0.9570552147239264,0.9693251533742331,6.0
+species_Lonicera involucrata,0.03136932317745938,0.15250676821802087,0.03076923076923077,0.004344211390972875,8.134028653033884,0.006665091449163863,-0.16941490854788185,inf,"Below average association with VCM (z-score: -0.5, ranked #100 of 163 significant species)
+Co-occurrence ratio: 3.1% (higher than 39.3% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 11.0% of significant species)
+Odds ratio: 0.2 (higher than 39.3% of significant species)
+p=6.7e-03",-0.5232909279696171,weak,0.39263803680981596,0.11042944785276074,0.39263803680981596,100.0
+species_Lupinus stiversii,0.0386207496186033,2.169808009909166,0.3069306930693069,0.000445914579962931,12.329253980916134,0.0008187284091122668,0.1637847188601505,inf,"Above average association with VCM (z-score: 0.8, ranked #27 of 163 significant species)
+Co-occurrence ratio: 30.7% (higher than 84.0% of significant species)
+Effect size (Cramer's V): 0.039 (stronger than 25.8% of significant species)
+Odds ratio: 2.2 (higher than 83.4% of significant species)
+p=8.2e-04",0.839742525895969,average,0.8404907975460123,0.25766871165644173,0.8343558282208589,27.0
+species_Lysimachia latifolia,0.09628950513003903,3.879698994398326,0.4358974358974359,2.0518227957080917e-18,76.63961428582046,3.0640553749240835e-17,0.3193881484641957,inf,"Very strong association with VCM (z-score: 1.5, ranked #15 of 163 significant species)
+Co-occurrence ratio: 43.6% (higher than 91.4% of significant species)
+Effect size (Cramer's V): 0.096 (stronger than 91.4% of significant species)
+Odds ratio: 3.9 (higher than 91.4% of significant species)
+p=3.1e-17",1.476275891003266,strong,0.9141104294478528,0.9141104294478528,0.9141104294478528,15.0
+species_Maianthemum racemosum,0.04535469283672681,0.44753086419753085,0.08656716417910448,3.7309796051650025e-05,17.003560109686187,9.485528992557126e-05,-0.10209251509203364,inf,"Below average association with VCM (z-score: -0.2, ranked #50 of 163 significant species)
+Co-occurrence ratio: 8.7% (higher than 69.9% of significant species)
+Effect size (Cramer's V): 0.045 (stronger than 46.6% of significant species)
+Odds ratio: 0.4 (higher than 69.9% of significant species)
+p=9.5e-05",-0.2478924373156908,weak,0.6993865030674846,0.4662576687116564,0.6993865030674846,50.0
+species_Maianthemum stellatum,0.0334597293523632,0.2576832151300236,0.05102040816326531,0.0023495221233964755,9.254229134563847,0.0037325741534809257,-0.14498106935081725,inf,"Below average association with VCM (z-score: -0.4, ranked #76 of 163 significant species)
+Co-occurrence ratio: 5.1% (higher than 54.0% of significant species)
+Effect size (Cramer's V): 0.033 (stronger than 14.1% of significant species)
+Odds ratio: 0.3 (higher than 54.6% of significant species)
+p=3.7e-03",-0.423338414543822,weak,0.5398773006134969,0.1411042944785276,0.5460122699386503,76.0
+species_Marmota flaviventris,0.040938223651485396,0.058379618449649846,0.012048192771084338,0.00019764883584790367,13.85330479533889,0.00039885891198135516,-0.19200257459556516,inf,"Below average association with VCM (z-score: -0.6, ranked #129 of 163 significant species)
+Co-occurrence ratio: 1.2% (higher than 21.2% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 32.8% of significant species)
+Odds ratio: 0.1 (higher than 21.2% of significant species)
+p=4.0e-04",-0.6156912247743729,weak,0.2116564417177914,0.3282208588957055,0.2116564417177914,129.5
+species_Monardella odoratissima,0.06031788041237654,0.1380532811715626,0.02843601895734597,4.159238817636416e-08,30.073747201053568,2.0253684677186026e-07,-0.17223002004066246,inf,"Below average association with VCM (z-score: -0.5, ranked #104 of 163 significant species)
+Co-occurrence ratio: 2.8% (higher than 36.8% of significant species)
+Effect size (Cramer's V): 0.060 (stronger than 72.4% of significant species)
+Odds ratio: 0.1 (higher than 36.8% of significant species)
+p=2.0e-07",-0.5348068206219296,weak,0.36809815950920244,0.7239263803680982,0.36809815950920244,104.0
+species_Monochamus scutellatus,0.04863579449226637,0.20527760241301907,0.04142011834319527,9.786072854028358e-06,19.552731221719537,3.0028497524689756e-05,-0.15656419526713589,inf,"Below average association with VCM (z-score: -0.5, ranked #84 of 163 significant species)
+Co-occurrence ratio: 4.1% (higher than 49.1% of significant species)
+Effect size (Cramer's V): 0.049 (stronger than 55.8% of significant species)
+Odds ratio: 0.2 (higher than 49.1% of significant species)
+p=3.0e-05",-0.470721985309181,weak,0.49079754601226994,0.558282208588957,0.49079754601226994,84.0
+species_Myadestes townsendi,0.04031344461003754,0.14640544603110367,0.0297029702970297,0.0002471459313216735,13.433686765755384,0.00048139729231352056,-0.1707013935957893,inf,"Below average association with VCM (z-score: -0.5, ranked #102 of 163 significant species)
+Co-occurrence ratio: 3.0% (higher than 38.0% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 30.1% of significant species)
+Odds ratio: 0.1 (higher than 38.0% of significant species)
+p=4.8e-04",-0.5285536053976696,weak,0.3803680981595092,0.3006134969325153,0.3803680981595092,102.0
+species_Navarretia leptalea,0.055464189108999924,0.0,0.0,4.590855946504919e-07,25.42849967690728,1.8363423786019676e-06,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.055 (stronger than 66.6% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.8e-06",-0.675156762321988,weak,0.06441717791411043,0.6656441717791411,0.06441717791411043,153.5
+species_Neolentinus ponderosus,0.04407729568238334,0.1862533244680851,0.03759398496240601,6.139096673709483e-05,16.05925088396081,0.00014032220968478818,-0.16118057514242476,inf,"Below average association with VCM (z-score: -0.5, ranked #91 of 163 significant species)
+Co-occurrence ratio: 3.8% (higher than 44.8% of significant species)
+Effect size (Cramer's V): 0.044 (stronger than 40.5% of significant species)
+Odds ratio: 0.2 (higher than 44.8% of significant species)
+p=1.4e-04",-0.48960640080123413,weak,0.44785276073619634,0.4049079754601227,0.44785276073619634,91.0
+species_Nymphalis antiopa,0.04000911239147655,0.1479366840921702,0.03,0.00027526484113894425,13.23162652860853,0.0005225366475857925,-0.17034301561815796,inf,"Below average association with VCM (z-score: -0.5, ranked #101 of 163 significant species)
+Co-occurrence ratio: 3.0% (higher than 38.7% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 28.2% of significant species)
+Odds ratio: 0.1 (higher than 38.7% of significant species)
+p=5.2e-04",-0.5270875738284264,weak,0.38650306748466257,0.2822085889570552,0.38650306748466257,101.0
+species_Odocoileus hemionus,0.030761307796052427,1.4330272710633885,0.225130890052356,0.005162064232909791,7.8217691018358515,0.007607252553761798,0.06509005067475912,inf,"Above average association with VCM (z-score: 0.4, ranked #41 of 163 significant species)
+Co-occurrence ratio: 22.5% (higher than 75.5% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 7.4% of significant species)
+Odds ratio: 1.4 (higher than 75.5% of significant species)
+p=7.6e-03",0.43600817750753185,average,0.754601226993865,0.0736196319018405,0.754601226993865,41.0
+species_Paeonia brownii,0.050370244738775174,0.0,0.0,4.660019034178506e-06,20.9721774139946,1.5579765129193812e-05,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 59.5% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.6e-05",-0.675156762321988,weak,0.06441717791411043,0.5950920245398773,0.06441717791411043,153.5
+species_Parnassius clodius,0.03900359477347271,0.11266808209483369,0.022988505747126436,0.00039096136175569696,12.57490382982351,0.0007297945419439676,-0.17880265822423777,inf,"Below average association with VCM (z-score: -0.6, ranked #112 of 163 significant species)
+Co-occurrence ratio: 2.3% (higher than 31.9% of significant species)
+Effect size (Cramer's V): 0.039 (stronger than 27.0% of significant species)
+Odds ratio: 0.1 (higher than 32.5% of significant species)
+p=7.3e-04",-0.5616937826334351,weak,0.31901840490797545,0.26993865030674846,0.32515337423312884,112.0
+species_Passerella iliaca,0.036750279502550734,0.2016039389757171,0.04040404040404041,0.0008340353259944457,11.163919437699953,0.001437107023251968,-0.15779013312220144,inf,"Below average association with VCM (z-score: -0.5, ranked #86 of 163 significant species)
+Co-occurrence ratio: 4.0% (higher than 47.9% of significant species)
+Effect size (Cramer's V): 0.037 (stronger than 20.9% of significant species)
+Odds ratio: 0.2 (higher than 48.5% of significant species)
+p=1.4e-03",-0.4757369798390767,weak,0.4785276073619632,0.2085889570552147,0.48466257668711654,86.0
+species_Pedicularis semibarbata,0.052648310671534894,0.12410426017796677,0.025477707006369428,1.6958384526778481e-06,22.912067600538315,6.227341203276033e-06,-0.17579933934978112,inf,"Below average association with VCM (z-score: -0.5, ranked #108 of 163 significant species)
+Co-occurrence ratio: 2.5% (higher than 34.4% of significant species)
+Effect size (Cramer's V): 0.053 (stronger than 63.2% of significant species)
+Odds ratio: 0.1 (higher than 34.4% of significant species)
+p=6.2e-06",-0.549407982284993,weak,0.34355828220858897,0.6319018404907976,0.34355828220858897,108.0
+species_Pellaea bridgesii,0.04588489210041854,0.048233394768048235,0.01,3.0228012709302983e-05,17.403429188472245,7.965970408098669e-05,-0.19447379944533646,inf,"Below average association with VCM (z-score: -0.6, ranked #138 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 16.0% of significant species)
+Effect size (Cramer's V): 0.046 (stronger than 48.5% of significant species)
+Odds ratio: 0.0 (higher than 16.0% of significant species)
+p=8.0e-05",-0.6258003661574674,weak,0.15950920245398773,0.48466257668711654,0.15950920245398773,138.0
+species_Penstemon newberryi,0.08347383792919132,0.15988579586009993,0.03357314148681055,3.2179614625377815e-14,57.596509459586485,2.574369170030225e-13,-0.16603188037805053,inf,"Below average association with VCM (z-score: -0.5, ranked #99 of 163 significant species)
+Co-occurrence ratio: 3.4% (higher than 39.9% of significant species)
+Effect size (Cramer's V): 0.083 (stronger than 83.4% of significant species)
+Odds ratio: 0.2 (higher than 39.9% of significant species)
+p=2.6e-13",-0.5094518351509358,weak,0.3987730061349693,0.8343558282208589,0.3987730061349693,99.0
+species_Phacelia hydrophylloides,0.04803129708319195,0.0,0.0,1.260295312275343e-05,19.069707458816104,3.714554604601011e-05,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.048 (stronger than 54.0% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=3.7e-05",-0.675156762321988,weak,0.06441717791411043,0.5398773006134969,0.06441717791411043,153.5
+species_Pheucticus melanocephalus,0.03210973165706239,1.8564798642646838,0.275,0.003507756893463655,8.522534211353996,0.00541887961473006,0.12525908626477888,inf,"Above average association with VCM (z-score: 0.7, ranked #34 of 163 significant species)
+Co-occurrence ratio: 27.5% (higher than 79.8% of significant species)
+Effect size (Cramer's V): 0.032 (stronger than 11.7% of significant species)
+Odds ratio: 1.9 (higher than 79.1% of significant species)
+p=5.4e-03",0.6821441322023268,average,0.7975460122699386,0.1165644171779141,0.7914110429447853,34.0
+species_Phlox diffusa,0.046404306932926145,0.19694084824159958,0.039735099337748346,2.4542563921763442e-05,17.79967129611385,6.623535323463869e-05,-0.15859723673539225,inf,"Below average association with VCM (z-score: -0.5, ranked #87 of 163 significant species)
+Co-occurrence ratio: 4.0% (higher than 47.2% of significant species)
+Effect size (Cramer's V): 0.046 (stronger than 49.7% of significant species)
+Odds ratio: 0.2 (higher than 47.2% of significant species)
+p=6.6e-05",-0.47903863186693946,weak,0.4723926380368098,0.49693251533742333,0.4723926380368098,87.0
+species_Phyllodoce breweri,0.03764669175848695,0.0,0.0,0.0006199225028673146,11.715181927363604,0.0011109011251382278,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.038 (stronger than 23.9% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.1e-03",-0.675156762321988,weak,0.06441717791411043,0.2392638036809816,0.06441717791411043,153.5
+species_Pipilo chlorurus,0.04056086175627393,0.10633010930250845,0.021739130434782608,0.0002262955733349833,13.599086863997998,0.00044858591528350674,-0.1803100785032969,inf,"Below average association with VCM (z-score: -0.6, ranked #114 of 163 significant species)
+Co-occurrence ratio: 2.2% (higher than 30.7% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 31.3% of significant species)
+Odds ratio: 0.1 (higher than 31.3% of significant species)
+p=4.5e-04",-0.5678602489208564,weak,0.3067484662576687,0.3128834355828221,0.3128834355828221,114.0
+species_Piranga ludoviciana,0.03411446904302614,0.4695206140415992,0.08962264150943396,0.0019247539407556088,9.619945986192008,0.003101761746253643,-0.09840596194468239,inf,"Below average association with VCM (z-score: -0.2, ranked #49 of 163 significant species)
+Co-occurrence ratio: 9.0% (higher than 70.6% of significant species)
+Effect size (Cramer's V): 0.034 (stronger than 15.3% of significant species)
+Odds ratio: 0.5 (higher than 70.6% of significant species)
+p=3.1e-03",-0.23281170235694548,weak,0.7055214723926381,0.15337423312883436,0.7055214723926381,49.0
+species_Platanthera dilatata,0.07804443750484585,0.10525614151220947,0.022151898734177215,1.2878341848766225e-12,50.34766230755143,9.014839294136357e-12,-0.17981205737312672,inf,"Below average association with VCM (z-score: -0.6, ranked #113 of 163 significant species)
+Co-occurrence ratio: 2.2% (higher than 31.3% of significant species)
+Effect size (Cramer's V): 0.078 (stronger than 81.0% of significant species)
+Odds ratio: 0.1 (higher than 30.7% of significant species)
+p=9.0e-12",-0.5658229733499488,weak,0.3128834355828221,0.8098159509202454,0.3067484662576687,113.0
+species_Poecile gambeli,0.050174509809710166,0.29700758266836946,0.05907172995780591,5.073065692348107e-06,20.8095015387731,1.6469082827332986e-05,-0.13526683406346177,inf,"Below average association with VCM (z-score: -0.4, ranked #69 of 163 significant species)
+Co-occurrence ratio: 5.9% (higher than 58.3% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 58.3% of significant species)
+Odds ratio: 0.3 (higher than 58.3% of significant species)
+p=1.6e-05",-0.38359999172988357,weak,0.5828220858895705,0.5828220858895705,0.5828220858895705,69.0
+species_Polemonium californicum,0.03627904199286327,0.0,0.0,0.0009723701103961733,10.879452027546193,0.001625454512901066,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.036 (stronger than 18.4% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.6e-03",-0.675156762321988,weak,0.06441717791411043,0.18404907975460122,0.06441717791411043,153.5
+species_Polemonium occidentale,0.03223116825844288,0.0,0.0,0.0033854914793996433,8.587119281575328,0.005266320079066111,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.032 (stronger than 12.3% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=5.3e-03",-0.675156762321988,weak,0.06441717791411043,0.12269938650306748,0.06441717791411043,153.5
+species_Prunella vulgaris,0.04098330309980423,1.8316027424483308,0.270935960591133,0.00019446427223135358,13.88383094513352,0.00039885891198135516,0.12035566344275367,inf,"Above average association with VCM (z-score: 0.7, ranked #35 of 163 significant species)
+Co-occurrence ratio: 27.1% (higher than 79.1% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 33.7% of significant species)
+Odds ratio: 1.8 (higher than 78.5% of significant species)
+p=4.0e-04",0.6620854982931004,average,0.7914110429447853,0.3374233128834356,0.7852760736196319,35.0
+species_Prunus emarginata,0.047392894161003014,0.08364683825629182,0.017241379310344827,1.6410888827494726e-05,18.566150322558574,4.7740767498166475e-05,-0.18573679150790975,inf,"Below average association with VCM (z-score: -0.6, ranked #116 of 163 significant species)
+Co-occurrence ratio: 1.7% (higher than 29.1% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 53.4% of significant species)
+Odds ratio: 0.1 (higher than 28.8% of significant species)
+p=4.8e-05",-0.5900595275555732,weak,0.29141104294478526,0.5337423312883436,0.2883435582822086,116.5
+species_Pseudacris regilla,0.04692459830069426,1.6380722925188893,0.2471395881006865,1.9876884831152772e-05,18.201053573683435,5.565527752722776e-05,0.09164440742085457,inf,"Above average association with VCM (z-score: 0.5, ranked #40 of 163 significant species)
+Co-occurrence ratio: 24.7% (higher than 76.1% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 51.5% of significant species)
+Odds ratio: 1.6 (higher than 76.7% of significant species)
+p=5.6e-05",0.5446351795014028,average,0.7607361963190185,0.5153374233128835,0.7668711656441718,40.0
+species_Pterospora andromedea,0.09125880568129961,0.24607399234858363,0.051643192488262914,1.0674950341797084e-16,68.84065003244194,1.1386613697916889e-15,-0.14422965565494364,inf,"Below average association with VCM (z-score: -0.4, ranked #75 of 163 significant species)
+Co-occurrence ratio: 5.2% (higher than 54.6% of significant species)
+Effect size (Cramer's V): 0.091 (stronger than 87.7% of significant species)
+Odds ratio: 0.2 (higher than 51.5% of significant species)
+p=1.1e-15",-0.4202645755568585,weak,0.5460122699386503,0.8773006134969326,0.5153374233128835,75.0
+species_Purshia tridentata,0.04251172047310298,0.27836637047163365,0.05521472392638037,0.00011106132021447047,14.938698557103088,0.00024389936988275868,-0.13992046300168443,inf,"Below average association with VCM (z-score: -0.4, ranked #73 of 163 significant species)
+Co-occurrence ratio: 5.5% (higher than 55.8% of significant species)
+Effect size (Cramer's V): 0.043 (stronger than 38.0% of significant species)
+Odds ratio: 0.3 (higher than 55.8% of significant species)
+p=2.4e-04",-0.40263678349948195,weak,0.558282208588957,0.3803680981595092,0.558282208588957,73.0
+species_Pyrola picta,0.07786975214179817,0.05158734306889811,0.010948905109489052,1.4443903337221335e-12,50.12253013643492,9.804346507689634e-12,-0.19332890824185717,inf,"Below average association with VCM (z-score: -0.6, ranked #133 of 163 significant species)
+Co-occurrence ratio: 1.1% (higher than 19.0% of significant species)
+Effect size (Cramer's V): 0.078 (stronger than 80.4% of significant species)
+Odds ratio: 0.1 (higher than 19.0% of significant species)
+p=9.8e-12",-0.6211169125068196,weak,0.1901840490797546,0.803680981595092,0.1901840490797546,133.0
+species_Ribes cereum,0.05342956770185209,0.0688534006174549,0.014285714285714285,1.187660758876516e-06,23.597104813932972,4.586827758419648e-06,-0.18930291719665535,inf,"Below average association with VCM (z-score: -0.6, ranked #122 of 163 significant species)
+Co-occurrence ratio: 1.4% (higher than 25.8% of significant species)
+Effect size (Cramer's V): 0.053 (stronger than 65.0% of significant species)
+Odds ratio: 0.1 (higher than 25.8% of significant species)
+p=4.6e-06",-0.6046476249441015,weak,0.25766871165644173,0.6503067484662577,0.25766871165644173,122.0
+species_Ribes nevadense,0.038437575615464147,0.4128894046889142,0.07981220657276995,0.0004746837669861016,12.212578713861935,0.0008644647463811931,-0.11024263618004433,inf,"Below average association with VCM (z-score: -0.3, ranked #53 of 163 significant species)
+Co-occurrence ratio: 8.0% (higher than 68.1% of significant species)
+Effect size (Cramer's V): 0.038 (stronger than 25.2% of significant species)
+Odds ratio: 0.4 (higher than 67.5% of significant species)
+p=8.6e-04",-0.2812324736849696,weak,0.6809815950920245,0.25153374233128833,0.6748466257668712,53.0
+species_Rubus parviflorus,0.04651169830610444,0.4912793733681462,0.09456264775413711,2.3501477979277788e-05,17.88215256364324,6.419915935802713e-05,-0.0924456508048902,inf,"Below average association with VCM (z-score: -0.2, ranked #45 of 163 significant species)
+Co-occurrence ratio: 9.5% (higher than 73.0% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 50.3% of significant species)
+Odds ratio: 0.5 (higher than 72.4% of significant species)
+p=6.4e-05",-0.20842961183006806,weak,0.7300613496932515,0.5030674846625767,0.7239263803680982,45.0
+species_Sarcodes sanguinea,0.12631342504970644,0.2132548737166501,0.047530288909599254,1.5856627149782753e-30,131.884702420814,3.5518844815513365e-29,-0.14919203501288172,inf,"Below average association with VCM (z-score: -0.4, ranked #83 of 163 significant species)
+Co-occurrence ratio: 4.8% (higher than 49.7% of significant species)
+Effect size (Cramer's V): 0.126 (stronger than 94.5% of significant species)
+Odds ratio: 0.2 (higher than 49.7% of significant species)
+p=3.6e-29",-0.4405643853983582,weak,0.49693251533742333,0.9447852760736196,0.49693251533742333,83.0
+species_Sceloporus occidentalis,0.05690322791178389,1.8576528422072978,0.27055702917771884,2.2974692347383617e-07,26.765120748486964,1.0090845266301823e-06,0.11989846784163245,inf,"Above average association with VCM (z-score: 0.7, ranked #36 of 163 significant species)
+Co-occurrence ratio: 27.1% (higher than 78.5% of significant species)
+Effect size (Cramer's V): 0.057 (stronger than 69.3% of significant species)
+Odds ratio: 1.9 (higher than 79.8% of significant species)
+p=1.0e-06",0.6602152293971353,average,0.7852760736196319,0.6932515337423313,0.7975460122699386,36.0
+species_Sciurus griseus,0.044254644070463485,2.223138638171318,0.3114754098360656,5.733383681547929e-05,16.18874213122698,0.0001323997881099728,0.16926809775287083,inf,"Above average association with VCM (z-score: 0.9, ranked #26 of 163 significant species)
+Co-occurrence ratio: 31.1% (higher than 84.7% of significant species)
+Effect size (Cramer's V): 0.044 (stronger than 41.1% of significant species)
+Odds ratio: 2.2 (higher than 84.7% of significant species)
+p=1.3e-04",0.8621736100155369,average,0.8466257668711656,0.4110429447852761,0.8466257668711656,26.0
+species_Sedum obtusatum,0.04722719027843803,0.0,0.0,1.7565638041012465e-05,18.436548408190816,4.980636609097205e-05,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 52.1% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=5.0e-05",-0.675156762321988,weak,0.06441717791411043,0.5214723926380368,0.06441717791411043,153.5
+species_Sedum spathulifolium,0.08358098888844805,4.831929046563193,0.49382716049382713,2.9847776507654147e-14,57.744471561716864,2.484715684525144e-13,0.38928263153437087,inf,"Very strong association with VCM (z-score: 1.8, ranked #12 of 163 significant species)
+Co-occurrence ratio: 49.4% (higher than 93.3% of significant species)
+Effect size (Cramer's V): 0.084 (stronger than 84.7% of significant species)
+Odds ratio: 4.8 (higher than 93.3% of significant species)
+p=2.5e-13",1.7621961346913715,strong,0.9325153374233128,0.8466257668711656,0.9325153374233128,12.0
+species_Senecio integerrimus,0.04724752146729971,0.04588048090523338,0.009523809523809525,1.7419896842473377e-05,18.452425602181158,4.980636609097205e-05,-0.19504834191741216,inf,"Below average association with VCM (z-score: -0.6, ranked #140 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 14.7% of significant species)
+Effect size (Cramer's V): 0.047 (stronger than 52.8% of significant species)
+Odds ratio: 0.0 (higher than 15.3% of significant species)
+p=5.0e-05",-0.6281506707367304,weak,0.147239263803681,0.5276073619631901,0.15337423312883436,140.0
+species_Senecio triangularis,0.051127292537163256,0.0,0.0,3.345717443670455e-06,21.607324348665415,1.152985703664895e-05,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.051 (stronger than 60.7% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=1.2e-05",-0.675156762321988,weak,0.06441717791411043,0.6073619631901841,0.06441717791411043,153.5
+species_Sidalcea glaucescens,0.05024163668406892,0.07616135881104034,0.015748031496062992,4.927612173572124e-06,20.865219520632436,1.6232134218825822e-05,-0.18753857417217099,inf,"Below average association with VCM (z-score: -0.6, ranked #119 of 163 significant species)
+Co-occurrence ratio: 1.6% (higher than 27.6% of significant species)
+Effect size (Cramer's V): 0.050 (stronger than 58.9% of significant species)
+Odds ratio: 0.1 (higher than 27.6% of significant species)
+p=1.6e-05",-0.5974301541888848,weak,0.27607361963190186,0.588957055214724,0.27607361963190186,119.0
+species_Sidalcea oregana,0.04024749032415145,0.0,0.0,0.0002530008565747405,13.389766706127766,0.000488553378213292,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 29.4% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=4.9e-04",-0.675156762321988,weak,0.06441717791411043,0.294478527607362,0.06441717791411043,153.5
+species_Silene laciniata,0.15050349749775155,6.0212468193384225,0.5384615384615384,1.2756971928823958e-42,187.23566860635447,4.0822310172236666e-41,0.44313575783434195,inf,"Very strong association with VCM (z-score: 2.0, ranked #10 of 163 significant species)
+Co-occurrence ratio: 53.8% (higher than 94.5% of significant species)
+Effect size (Cramer's V): 0.151 (stronger than 96.3% of significant species)
+Odds ratio: 6.0 (higher than 94.5% of significant species)
+p=4.1e-41",1.9824953388445021,strong,0.9447852760736196,0.9631901840490797,0.9447852760736196,10.0
+species_Sitta canadensis,0.030765037049967765,0.48373101028680426,0.0918918918918919,0.00515665010845236,7.823665713733561,0.007607252553761798,-0.09566802242324064,inf,"Below average association with VCM (z-score: -0.2, ranked #47 of 163 significant species)
+Co-occurrence ratio: 9.2% (higher than 71.8% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 8.0% of significant species)
+Odds ratio: 0.5 (higher than 71.8% of significant species)
+p=7.6e-03",-0.2216115002696371,weak,0.7177914110429447,0.07975460122699386,0.7177914110429447,47.0
+species_Sphyrapicus ruber,0.0313441824238538,0.40505698005698004,0.07801418439716312,0.004375551473803849,8.120995941862676,0.006667507007701102,-0.1124120204018464,inf,"Below average association with VCM (z-score: -0.3, ranked #56 of 163 significant species)
+Co-occurrence ratio: 7.8% (higher than 66.3% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 10.4% of significant species)
+Odds ratio: 0.4 (higher than 66.3% of significant species)
+p=6.7e-03",-0.290106863166154,weak,0.6625766871165644,0.10429447852760736,0.6625766871165644,56.0
+species_Sphyrapicus thyroideus,0.03449542037095728,0.17982471671388103,0.03614457831325301,0.001711297194019438,9.835994663619804,0.0027980333683237523,-0.16292934106884407,inf,"Below average association with VCM (z-score: -0.5, ranked #94 of 163 significant species)
+Co-occurrence ratio: 3.6% (higher than 42.9% of significant species)
+Effect size (Cramer's V): 0.034 (stronger than 16.6% of significant species)
+Odds ratio: 0.2 (higher than 43.6% of significant species)
+p=2.8e-03",-0.49676014967914267,weak,0.4294478527607362,0.1656441717791411,0.43558282208588955,94.0
+species_Spiraea splendens,0.07831133890214331,0.0,0.0,1.0802523668342046e-12,50.69261550814268,7.805694521640703e-12,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.078 (stronger than 81.6% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=7.8e-12",-0.675156762321988,weak,0.06441717791411043,0.8159509202453987,0.06441717791411043,153.5
+species_Streptanthus tortuosus,0.06461306680650691,0.16762345051818736,0.034482758620689655,4.242202741568835e-09,34.50929689210682,2.4365472156703056e-08,-0.16493439165689383,inf,"Below average association with VCM (z-score: -0.5, ranked #97 of 163 significant species)
+Co-occurrence ratio: 3.4% (higher than 41.1% of significant species)
+Effect size (Cramer's V): 0.065 (stronger than 76.7% of significant species)
+Odds ratio: 0.2 (higher than 41.1% of significant species)
+p=2.4e-08",-0.5049622927891586,weak,0.4110429447852761,0.7668711656441718,0.4110429447852761,97.0
+species_Tamiasciurus douglasii,0.05429269334314884,0.32059853549824896,0.06375838926174497,7.967640582674775e-07,24.365659686046133,3.13114296582307e-06,-0.12961219593671233,inf,"Below average association with VCM (z-score: -0.4, ranked #64 of 163 significant species)
+Co-occurrence ratio: 6.4% (higher than 61.3% of significant species)
+Effect size (Cramer's V): 0.054 (stronger than 65.6% of significant species)
+Odds ratio: 0.3 (higher than 61.3% of significant species)
+p=3.1e-06",-0.3604683304005483,weak,0.6134969325153374,0.656441717791411,0.6134969325153374,64.0
+species_Taricha sierrae,0.09584086654834624,4.393939393939394,0.46774193548387094,2.943314167472935e-18,75.92710907829958,4.120639834462109e-17,0.3578097852444428,inf,"Very strong association with VCM (z-score: 1.6, ranked #14 of 163 significant species)
+Co-occurrence ratio: 46.8% (higher than 92.0% of significant species)
+Effect size (Cramer's V): 0.096 (stronger than 90.8% of significant species)
+Odds ratio: 4.4 (higher than 92.0% of significant species)
+p=4.1e-17",1.633448864728166,strong,0.9202453987730062,0.9079754601226994,0.9202453987730062,14.0
+species_Thamnophis elegans,0.04154581971240567,0.2473274410774411,0.04929577464788732,0.00015857340278733367,14.267571750668862,0.00033828992594631184,-0.14706190727785193,inf,"Below average association with VCM (z-score: -0.4, ranked #80 of 163 significant species)
+Co-occurrence ratio: 4.9% (higher than 51.5% of significant species)
+Effect size (Cramer's V): 0.042 (stronger than 36.2% of significant species)
+Odds ratio: 0.2 (higher than 52.1% of significant species)
+p=3.4e-04",-0.4318505840461826,weak,0.5153374233128835,0.3619631901840491,0.5214723926380368,80.0
+species_Toxicodendron diversilobum,0.1903405851182646,17.371153630972362,0.7711864406779662,4.290500523447354e-67,299.4733639445881,4.805360586261037e-65,0.7239274731636357,inf,"Exceptionally strong association with VCM (z-score: 3.1, ranked #4 of 163 significant species)
+Co-occurrence ratio: 77.1% (higher than 98.2% of significant species)
+Effect size (Cramer's V): 0.190 (stronger than 99.4% of significant species)
+Odds ratio: 17.4 (higher than 98.2% of significant species)
+p=4.8e-65",3.131141585958833,very_strong,0.9815950920245399,0.9938650306748467,0.9815950920245399,4.0
+species_Trifolium longipes,0.04087276379003362,0.0,0.0,0.00020236047830993274,13.809037588763415,0.0004047209566198655,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 31.9% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=4.0e-04",-0.675156762321988,weak,0.06441717791411043,0.31901840490797545,0.06441717791411043,153.5
+species_Ursus americanus,0.045899431806686944,0.5207798880061789,0.09978768577494693,3.0053092620628416e-05,17.414460306900644,7.965970408098669e-05,-0.08614143765644268,inf,"Below average association with VCM (z-score: -0.2, ranked #44 of 163 significant species)
+Co-occurrence ratio: 10.0% (higher than 73.6% of significant species)
+Effect size (Cramer's V): 0.046 (stronger than 49.1% of significant species)
+Odds ratio: 0.5 (higher than 73.6% of significant species)
+p=8.0e-05",-0.1826407071770909,weak,0.7361963190184049,0.49079754601226994,0.7361963190184049,44.0
+species_Valeriana californica,0.041181974589883694,0.0,0.0,0.00018099538562849833,14.018764287253017,0.00037539783685910764,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.041 (stronger than 34.4% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=3.8e-04",-0.675156762321988,weak,0.06441717791411043,0.34355828220858897,0.06441717791411043,153.5
+species_Veratrum californicum,0.10315611805345558,0.03095705639969096,0.006772009029345372,6.679048506777371e-21,87.96003266290207,1.2467557212651093e-19,-0.198368497060784,inf,"Below average association with VCM (z-score: -0.6, ranked #143 of 163 significant species)
+Co-occurrence ratio: 0.7% (higher than 12.9% of significant species)
+Effect size (Cramer's V): 0.103 (stronger than 93.3% of significant species)
+Odds ratio: 0.0 (higher than 12.9% of significant species)
+p=1.2e-19",-0.64173256627378,weak,0.12883435582822086,0.9325153374233128,0.12883435582822086,143.0
+species_Viola glabella,0.04294700224594754,0.09753455522336323,0.02,9.43673078953809e-05,15.246182385816356,0.0002135179491774275,-0.18240840753174722,inf,"Below average association with VCM (z-score: -0.6, ranked #115 of 163 significant species)
+Co-occurrence ratio: 2.0% (higher than 30.1% of significant species)
+Effect size (Cramer's V): 0.043 (stronger than 39.9% of significant species)
+Odds ratio: 0.1 (higher than 30.1% of significant species)
+p=2.1e-04",-0.5764439699929469,weak,0.3006134969325153,0.3987730061349693,0.3006134969325153,115.0
+species_Viola lobata,0.04033993278982716,0.4474073158093085,0.08614232209737828,0.000244830477297231,13.451345927113925,0.0004810704115314013,-0.10260510371377482,inf,"Below average association with VCM (z-score: -0.2, ranked #51 of 163 significant species)
+Co-occurrence ratio: 8.6% (higher than 69.3% of significant species)
+Effect size (Cramer's V): 0.040 (stronger than 30.7% of significant species)
+Odds ratio: 0.4 (higher than 69.3% of significant species)
+p=4.8e-04",-0.24998930472499462,weak,0.6932515337423313,0.3067484662576687,0.6932515337423313,51.0
+species_Viola macloskeyi,0.05236598540905752,0.0,0.0,1.9264861360391996e-06,22.666995672704193,6.849728483694932e-06,-0.20653919135892573,inf,"Below average association with VCM (z-score: -0.7, ranked #153 of 163 significant species)
+Co-occurrence ratio: 0.0% (higher than 6.4% of significant species)
+Effect size (Cramer's V): 0.052 (stronger than 62.0% of significant species)
+Odds ratio: 0.0 (higher than 6.4% of significant species)
+p=6.8e-06",-0.675156762321988,weak,0.06441717791411043,0.6196319018404908,0.06441717791411043,153.5
+species_Viola pinetorum,0.04274510454353889,0.054350970811366854,0.011235955056179775,0.00010179210459764079,15.103171993513074,0.00022801431429871535,-0.19298257123129733,inf,"Below average association with VCM (z-score: -0.6, ranked #132 of 163 significant species)
+Co-occurrence ratio: 1.1% (higher than 19.6% of significant species)
+Effect size (Cramer's V): 0.043 (stronger than 39.3% of significant species)
+Odds ratio: 0.1 (higher than 19.6% of significant species)
+p=2.3e-04",-0.6197001374180323,weak,0.19631901840490798,0.39263803680981596,0.19631901840490798,132.0
+species_Viola purpurea,0.03097169132918166,0.5665643554987817,0.10622710622710622,0.004864532478411648,7.92912465688902,0.007264368501094728,-0.07837202451127427,inf,"Below average association with VCM (z-score: -0.2, ranked #43 of 163 significant species)
+Co-occurrence ratio: 10.6% (higher than 74.2% of significant species)
+Effect size (Cramer's V): 0.031 (stronger than 8.6% of significant species)
+Odds ratio: 0.6 (higher than 74.2% of significant species)
+p=7.3e-03",-0.1508580484864219,weak,0.7423312883435583,0.08588957055214724,0.7423312883435583,43.0
+species_Viola sheltonii,0.024624464406885285,1.7142606969820793,0.26,0.02516920228337956,5.012206868396388,0.035458498814320887,0.10716099839439498,inf,"Above average association with VCM (z-score: 0.6, ranked #38 of 163 significant species)
+Co-occurrence ratio: 26.0% (higher than 77.3% of significant species)
+Effect size (Cramer's V): 0.025 (stronger than 3.1% of significant species)
+Odds ratio: 1.7 (higher than 77.3% of significant species)
+p=3.5e-02",0.6081095379555459,average,0.7730061349693251,0.03067484662576687,0.7730061349693251,38.0
+species_Woodwardia fimbriata,0.09774295128179564,6.843385579937304,0.5797101449275363,6.303615877302194e-19,78.97075628592708,1.0861615050120704e-17,0.4929038181245095,inf,"Exceptionally strong association with VCM (z-score: 2.2, ranked #8 of 163 significant species)
+Co-occurrence ratio: 58.0% (higher than 95.7% of significant species)
+Effect size (Cramer's V): 0.098 (stronger than 92.6% of significant species)
+Odds ratio: 6.8 (higher than 95.7% of significant species)
+p=1.1e-17",2.1860835950415214,very_strong,0.9570552147239264,0.9263803680981595,0.9570552147239264,8.0
+species_Wyethia mollis,0.08005184816617682,0.04912869568686909,0.010452961672473868,3.385104131817034e-13,52.9709945315873,2.527544418423385e-12,-0.19392728343531326,inf,"Below average association with VCM (z-score: -0.6, ranked #134 of 163 significant species)
+Co-occurrence ratio: 1.0% (higher than 18.4% of significant species)
+Effect size (Cramer's V): 0.080 (stronger than 82.2% of significant species)
+Odds ratio: 0.0 (higher than 17.8% of significant species)
+p=2.5e-12",-0.6235647105820711,weak,0.18404907975460122,0.8220858895705522,0.17791411042944785,134.0
+species_Wyethia sagittata,0.030164398375927725,0.25271364094147486,0.05,0.006097845377926572,7.521158422268893,0.008869593276984104,-0.14621223179097945,inf,"Below average association with VCM (z-score: -0.4, ranked #78 of 163 significant species)
+Co-occurrence ratio: 5.0% (higher than 52.5% of significant species)
+Effect size (Cramer's V): 0.030 (stronger than 6.1% of significant species)
+Odds ratio: 0.3 (higher than 53.4% of significant species)
+p=8.9e-03",-0.4283747814993853,weak,0.5245398773006135,0.06134969325153374,0.5337423312883436,78.5
