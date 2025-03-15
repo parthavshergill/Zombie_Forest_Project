@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import chi2_contingency
 from statsmodels.stats.multitest import multipletests
+import argparse
 
 def load_species_data(file_path):
     """
@@ -332,7 +333,7 @@ def visualize_top_indicators(results_df, output_prefix=""):
     plt.close()
     
     # 2. Scatter plot of effect sizes
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 8))
     plt.scatter(significant['cramer_v'], 
                significant['co_occurrence_ratio'] * 100,
                alpha=0.5)
@@ -400,23 +401,32 @@ def visualize_top_indicators(results_df, output_prefix=""):
     print(f"- {output_prefix}top_indicators_summary.csv")
 
 def main():
-    """Main analysis pipeline."""
+    """Main analysis pipeline with command line arguments."""
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Analyze species co-occurrence with VCM sites.')
+    parser.add_argument('--input', type=str, default='inat-data-matrix-latlong.csv',
+                        help='Path to input CSV file with species presence and VCM data')
+    parser.add_argument('--output-prefix', type=str, default='outputs/cooccurrence_analysis/',
+                        help='Prefix for output files (can include directory path)')
+    
+    args = parser.parse_args()
+    
     # Load data
-    file_path = 'inat-data-matrix-gdf.csv'
+    file_path = args.input
     data, species_columns, vcm_label = load_species_data(file_path)
     
     # Perform co-occurrence analysis
-    print("\nAnalyzing species co-occurrence patterns...")
+    print(f"\nAnalyzing species co-occurrence patterns from {file_path}...")
     results_df = analyze_cooccurrence(data, species_columns, vcm_label)
     
     # Interpret results
     results_df = interpret_cooccurrence_results(results_df)
     
     # Save and summarize results
-    save_and_summarize_results(results_df)
+    save_and_summarize_results(results_df, output_prefix=args.output_prefix)
     
     # Add visualization
-    visualize_top_indicators(results_df, output_prefix="")
+    visualize_top_indicators(results_df, output_prefix=args.output_prefix)
     
     print("\nAnalysis complete.")
 

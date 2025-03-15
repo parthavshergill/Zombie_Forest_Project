@@ -5,19 +5,22 @@ import numpy as np
 from shapely import wkt
 import matplotlib.pyplot as plt
 from typing import List, Tuple
+import argparse
 
-def load_and_filter_data(data_csv: str) -> pd.DataFrame:
+def load_and_filter_data(data_csv: str, altitude_threshold: float = None) -> pd.DataFrame:
     """
-    Load data from CSV and filter out unwanted taxonomic entries.
+    Load data from CSV and filter out unwanted taxonomic entries and by altitude if specified.
     
     Args:
         data_csv: Path to the input CSV file
+        altitude_threshold: Optional maximum altitude threshold
     Returns:
         Filtered DataFrame
     """
     data_large = pd.read_csv(data_csv)
     print(f"Data before filtering: {len(data_large)}")
     
+    # Filter by unwanted taxonomic entries
     unwanted_mask = (
         (data_large['class'] == 'Pinopsida') |
         (data_large['family'] == 'Lauraceae') |
@@ -26,7 +29,14 @@ def load_and_filter_data(data_csv: str) -> pd.DataFrame:
         (data_large['veg_class'] == 'Broadleaf-dominated')
     )
     data_filtered = data_large[~unwanted_mask]
-    print(f"Data after filtering: {len(data_filtered)}")
+    print(f"Data after taxonomic filtering: {len(data_filtered)}")
+    
+    # Apply altitude filtering if threshold is provided
+    if altitude_threshold is not None and 'altitude' in data_filtered.columns:
+        original_count = len(data_filtered)
+        data_filtered = data_filtered[data_filtered['altitude'] < altitude_threshold]
+        print(f"Data after altitude filtering (<{altitude_threshold}m): {len(data_filtered)}")
+        print(f"Removed {original_count - len(data_filtered)} records with altitude ≥{altitude_threshold}m")
     
     return data_filtered
 
@@ -149,16 +159,24 @@ def create_final_matrix(gdf: gpd.GeoDataFrame, species_presence: pd.DataFrame) -
     return data_matrix
 
 def main():
-    """Main execution function."""
-    # File paths
-    data_csv = 'data_sources/processed-inat-data-complete_01_29_25.csv'
-    raster_path = 'data_sources/Gymno800mGAM_ecoSN401520.tif'
-    output_file = "inat-data-matrix-gdf.csv"
+    """Main execution function with command-line arguments."""
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Process iNaturalist data to create gridded data matrix.')
+    parser.add_argument('--input', type=str, default='data_sources/inat-table-for-parthav-alt-lat.csv',
+                        help='Path to input CSV file')
+    parser.add_argument('--output', type=str, default='inat-data-matrix-gdf.csv',
+                        help='Path to output CSV file')
+    parser.add_argument('--raster', type=str, default='data_sources/Gymno800mGAM_ecoSN401520.tif',
+                        help='Path to raster file for grid assignment')
+    parser.add_argument('--altitude', type=float, default=None,
+                        help='Maximum altitude threshold for filtering (optional)')
+    
+    args = parser.parse_args()
     
     # Process data
-    data_filtered = load_and_filter_data(data_csv)
+    data_filtered = load_and_filter_data(args.input, args.altitude)
     data_gdf = create_geodataframe(data_filtered)
-    data_gdf = assign_grid_locations(data_gdf, raster_path)
+    data_gdf = assign_grid_locations(data_gdf, args.raster)
     
     # Analyze distribution
     grid_box_counts = analyze_grid_distribution(data_gdf)
@@ -168,8 +186,8 @@ def main():
     data_matrix = create_final_matrix(data_gdf, species_presence)
     
     # Save results
-    data_matrix.to_csv(output_file)
-    print(f"Data matrix saved to {output_file}")
+    data_matrix.to_csv(args.output)
+    print(f"Data matrix saved to {args.output}")
 
 if __name__ == "__main__":
     main()
