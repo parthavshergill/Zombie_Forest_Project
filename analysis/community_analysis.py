@@ -109,7 +109,7 @@ def detect_communities(G, resolution=1.0):
     
     # Apply Louvain community detection
     print("Applying Louvain community detection algorithm...")
-    communities = community_louvain.best_partition(G, resolution=resolution)
+    communities = community_louvain.best_partition(G, resolution=resolution, random_state=17)
     
     # Count communities
     community_counts = defaultdict(int)
@@ -527,6 +527,69 @@ def analyze_community_cooccurrence(communities, data_matrix, species_columns):
     
     return cooccurrence_stats
 
+def visualize_poster_network(G, communities, output_path):
+    """
+    Create a clean, aesthetic visualization of the species network for poster display.
+    Does not show labels or detailed information, just community structure.
+    
+    Args:
+        G: NetworkX graph of species co-occurrence
+        communities: Dictionary mapping nodes to community IDs
+        output_path: Path to save the visualization
+    """
+    print("\n=== Creating Poster Network Visualization ===")
+    
+    # Create figure with transparent background
+    fig, ax = plt.subplots(figsize=(12, 12), facecolor='white')
+    
+    # Generate a pleasing colormap for communities
+    unique_communities = sorted(set(communities.values()))
+    colors = plt.cm.viridis(np.linspace(0, 0.9, len(unique_communities)))
+    color_map = {comm: rgb2hex(colors[i]) for i, comm in enumerate(unique_communities)}
+    
+    # Set node colors by community
+    node_colors = [color_map[communities[node]] for node in G.nodes()]
+    
+    # Scale node sizes based on degree centrality, but with less variation
+    degree_dict = dict(G.degree())
+    max_degree = max(degree_dict.values())
+    node_sizes = [25 + 40 * (degree_dict[node] / max_degree) for node in G.nodes()]
+    
+    # Scale edge widths based on weight, but make them subtle
+    edge_weights = [0.2 + 0.5 * G[u][v].get('weight', 1) / max(1, G.edges[max(G.edges, key=lambda e: G.edges[e].get('weight', 1))].get('weight', 1)) 
+                   for u, v in G.edges()]
+    
+    # Use force-directed layout with more iterations for better spacing
+    pos = nx.spring_layout(G, k=0.1, iterations=200, seed=42)
+    
+    # Center the layout more precisely
+    pos_array = np.array(list(pos.values()))
+    center = np.mean(pos_array, axis=0)
+    for node in pos:
+        # Pull positions 10% closer to geometric center
+        pos[node] = pos[node] + 0.1 * (center - pos[node])
+
+    # Draw network elements
+    nx.draw_networkx_edges(G, pos, width=edge_weights, alpha=0.2, edge_color='#888888', ax=ax)
+    nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=node_sizes, alpha=0.9, ax=ax)
+        
+    # Remove axes and set minimal title
+    ax.set_title("Species Co-occurrence Network", fontsize=16, pad=20)
+    ax.axis('off')
+    
+    ax.set_aspect('equal')
+
+    # Add subtle grid in background
+    plt.grid(False)
+    
+    plt.tight_layout()
+    fig.subplots_adjust(left=0, right=1, top=0.95, bottom=0)
+    # Save with high resolution and tight cropping
+    plt.savefig(output_path, dpi=600, bbox_inches='tight', facecolor='white')
+    plt.close()
+    
+    print(f"Poster-ready network visualization saved to {output_path}")
+
 def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Identify multi-species indicator sets for VCM')
@@ -589,7 +652,9 @@ def main():
     
     # Visualize community network
     visualize_community_network(G, communities, os.path.join(args.output_dir, 'community_network.png'))
-    
+
+    visualize_poster_network(G, communities, os.path.join(args.output_dir, 'poster_network.png'))
+
     # Visualize community metrics
     visualize_community_metrics(metrics_df, args.output_dir)
     
