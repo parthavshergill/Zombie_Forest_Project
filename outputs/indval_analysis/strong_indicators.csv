@@ -1,0 +1,156 @@
+Species,Cluster,IndVal,Specificity,Fidelity,pvalue,pvalue_adj,indval_zscore,relative_strength,interpretation,indval_percentile,specificity_percentile,fidelity_percentile,rank
+species_Sarcodes sanguinea,0,12.014656430177824,0.8054051976824683,0.14917530287549263,0.0002,0.0007859649122807018,6.318537892903097,strong,"Exceptionally strong indicator (z-score: 5.7, ranked #1 of 162 significant species)
+IndVal: 12.0 (stronger than 100.0% of significant species)
+Specificity: 80.5% (better than 42.0% of significant species)
+Fidelity: 14.9% (better than 100.0% of significant species)
+p=2.0e-04",1.0,0.41975308641975306,1.0,1.0
+species_Chamaebatia foliolosa,1,7.918575255427435,0.6749869871343266,0.11731448763250883,0.0002,0.0007859649122807018,3.702663593243602,strong,"Exceptionally strong indicator (z-score: 3.2, ranked #2 of 162 significant species)
+IndVal: 7.9 (stronger than 99.4% of significant species)
+Specificity: 67.5% (better than 12.3% of significant species)
+Fidelity: 11.7% (better than 99.4% of significant species)
+p=2.0e-04",0.9938271604938271,0.12345679012345678,0.9938271604938271,2.0
+species_Pterospora andromedea,0,6.999863089785961,0.7913541588799278,0.0884542402568968,0.0002,0.0007859649122807018,3.115947793346766,strong,"Exceptionally strong indicator (z-score: 2.7, ranked #3 of 162 significant species)
+IndVal: 7.0 (stronger than 98.8% of significant species)
+Specificity: 79.1% (better than 37.0% of significant species)
+Fidelity: 8.8% (better than 98.8% of significant species)
+p=2.0e-04",0.9876543209876543,0.37037037037037035,0.9876543209876543,3.0
+species_Calochortus leichtlinii,0,6.746997993219864,0.8434978695538191,0.07998832287257335,0.0002,0.0007859649122807018,2.954460928421908,strong,"Exceptionally strong indicator (z-score: 2.5, ranked #4 of 162 significant species)
+IndVal: 6.7 (stronger than 98.1% of significant species)
+Specificity: 84.3% (better than 50.0% of significant species)
+Fidelity: 8.0% (better than 97.5% of significant species)
+p=2.0e-04",0.9814814814814815,0.5,0.9753086419753086,4.0
+species_Silene laciniata,1,6.3044034990513955,0.8495934239197832,0.07420494699646643,0.0002,0.0007859649122807018,2.671807457196049,strong,"Exceptionally strong indicator (z-score: 2.3, ranked #5 of 162 significant species)
+IndVal: 6.3 (stronger than 97.5% of significant species)
+Specificity: 85.0% (better than 51.9% of significant species)
+Fidelity: 7.4% (better than 96.3% of significant species)
+p=2.0e-04",0.9753086419753086,0.5185185185185185,0.9629629629629629,5.0
+species_Aquilegia formosa,0,6.293699654596757,0.7138764293649401,0.08816231207123047,0.0002,0.0007859649122807018,2.664971676745935,strong,"Exceptionally strong indicator (z-score: 2.3, ranked #6 of 162 significant species)
+IndVal: 6.3 (stronger than 96.9% of significant species)
+Specificity: 71.4% (better than 21.0% of significant species)
+Fidelity: 8.8% (better than 98.1% of significant species)
+p=2.0e-04",0.9691358024691358,0.20987654320987653,0.9814814814814815,6.0
+species_Veratrum californicum,0,6.217181206818286,0.9680433738161837,0.06422420084659174,0.0002,0.0007859649122807018,2.616104812918281,strong,"Exceptionally strong indicator (z-score: 2.2, ranked #7 of 162 significant species)
+IndVal: 6.2 (stronger than 96.3% of significant species)
+Specificity: 96.8% (better than 85.8% of significant species)
+Fidelity: 6.4% (better than 93.2% of significant species)
+p=2.0e-04",0.9629629629629629,0.8580246913580247,0.9320987654320988,7.0
+species_Toxicodendron diversilobum,1,6.059748795030499,0.942257642304193,0.06431095406360424,0.0002,0.0007859649122807018,2.5155639831935925,strong,"Exceptionally strong indicator (z-score: 2.1, ranked #8 of 162 significant species)
+IndVal: 6.1 (stronger than 95.7% of significant species)
+Specificity: 94.2% (better than 75.9% of significant species)
+Fidelity: 6.4% (better than 93.8% of significant species)
+p=2.0e-04",0.9567901234567902,0.7592592592592593,0.9382716049382716,8.0
+species_Arctostaphylos viscida,1,5.534252302028953,0.8157257299344761,0.06784452296819787,0.0002,0.0007859649122807018,2.1799669303134803,strong,"Very strong indicator (z-score: 1.8, ranked #9 of 162 significant species)
+IndVal: 5.5 (stronger than 95.1% of significant species)
+Specificity: 81.6% (better than 43.2% of significant species)
+Fidelity: 6.8% (better than 94.4% of significant species)
+p=2.0e-04",0.9506172839506173,0.43209876543209874,0.9444444444444444,9.0
+species_Arctostaphylos patula,0,5.299225361163919,0.8769321968438166,0.0604291344329295,0.0002,0.0007859649122807018,2.02987202054307,strong,"Very strong indicator (z-score: 1.7, ranked #10 of 162 significant species)
+IndVal: 5.3 (stronger than 94.4% of significant species)
+Specificity: 87.7% (better than 59.9% of significant species)
+Fidelity: 6.0% (better than 91.4% of significant species)
+p=2.0e-04",0.9444444444444444,0.5987654320987654,0.9135802469135802,10.0
+species_Chamaenerion angustifolium,0,5.25807487699574,0.9405501561957654,0.05590424755510145,0.0002,0.0007859649122807018,2.0035921473272653,strong,"Very strong indicator (z-score: 1.7, ranked #11 of 162 significant species)
+IndVal: 5.3 (stronger than 93.8% of significant species)
+Specificity: 94.1% (better than 74.1% of significant species)
+Fidelity: 5.6% (better than 89.2% of significant species)
+p=2.0e-04",0.9382716049382716,0.7407407407407407,0.8919753086419753,11.0
+species_Lilium parvum,0,5.156267443215901,0.9395103258902163,0.054882498905269306,0.0002,0.0007859649122807018,1.938575015542714,strong,"Very strong indicator (z-score: 1.6, ranked #12 of 162 significant species)
+IndVal: 5.2 (stronger than 93.2% of significant species)
+Specificity: 94.0% (better than 73.5% of significant species)
+Fidelity: 5.5% (better than 87.0% of significant species)
+p=2.0e-04",0.9320987654320988,0.7345679012345679,0.8703703703703703,12.0
+species_Calyptridium monospermum,0,5.11251099140781,0.8501410874304589,0.060137206247263174,0.0002,0.0007859649122807018,1.9106308970436345,strong,"Very strong indicator (z-score: 1.6, ranked #13 of 162 significant species)
+IndVal: 5.1 (stronger than 92.6% of significant species)
+Specificity: 85.0% (better than 52.5% of significant species)
+Fidelity: 6.0% (better than 90.7% of significant species)
+p=2.0e-04",0.9259259259259259,0.5246913580246914,0.9074074074074074,13.0
+species_Calochortus albus,1,5.073784564821125,0.9971396054474849,0.05088339222614841,0.0002,0.0007859649122807018,1.885899096157893,strong,"Very strong indicator (z-score: 1.5, ranked #14 of 162 significant species)
+IndVal: 5.1 (stronger than 92.0% of significant species)
+Specificity: 99.7% (better than 87.7% of significant species)
+Fidelity: 5.1% (better than 85.2% of significant species)
+p=2.0e-04",0.9197530864197531,0.8765432098765432,0.8518518518518519,14.0
+species_Penstemon newberryi,0,5.035407992598128,0.8560193587416818,0.058823529411764705,0.0002,0.0007859649122807018,1.861390722250171,strong,"Very strong indicator (z-score: 1.5, ranked #15 of 162 significant species)
+IndVal: 5.0 (stronger than 91.4% of significant species)
+Specificity: 85.6% (better than 54.9% of significant species)
+Fidelity: 5.9% (better than 90.1% of significant species)
+p=2.0e-04",0.9135802469135802,0.5493827160493827,0.9012345679012346,15.0
+species_Limenitis bredowii,1,4.980636614741008,0.7118788696826794,0.06996466431095406,0.0002,0.0007859649122807018,1.8264121577196204,strong,"Very strong indicator (z-score: 1.5, ranked #16 of 162 significant species)
+IndVal: 5.0 (stronger than 90.7% of significant species)
+Specificity: 71.2% (better than 20.4% of significant species)
+Fidelity: 7.0% (better than 95.1% of significant species)
+p=2.0e-04",0.9074074074074074,0.2037037037037037,0.9506172839506173,16.0
+species_Heteromeles arbutifolia,1,4.705605998418389,0.9791812482002972,0.0480565371024735,0.0002,0.0007859649122807018,1.6507697594945188,strong,"Very strong indicator (z-score: 1.3, ranked #17 of 162 significant species)
+IndVal: 4.7 (stronger than 90.1% of significant species)
+Specificity: 97.9% (better than 87.0% of significant species)
+Fidelity: 4.8% (better than 82.7% of significant species)
+p=2.0e-04",0.9012345679012346,0.8703703703703703,0.8271604938271605,17.0
+species_Pseudacris regilla,1,4.684878792518397,0.6138058788345861,0.07632508833922262,0.0004,0.0012619718309859157,1.6375327744582435,strong,"Very strong indicator (z-score: 1.3, ranked #18 of 162 significant species)
+IndVal: 4.7 (stronger than 89.5% of significant species)
+Specificity: 61.4% (better than 3.1% of significant species)
+Fidelity: 7.6% (better than 96.9% of significant species)
+p=4.0e-04",0.8950617283950617,0.030864197530864196,0.9691358024691358,18.0
+species_Sceloporus occidentalis,1,4.630182572950577,0.6423243471299085,0.07208480565371024,0.0002,0.0007859649122807018,1.6026022081555111,strong,"Very strong indicator (z-score: 1.3, ranked #19 of 162 significant species)
+IndVal: 4.6 (stronger than 88.9% of significant species)
+Specificity: 64.2% (better than 6.2% of significant species)
+Fidelity: 7.2% (better than 95.7% of significant species)
+p=2.0e-04",0.8888888888888888,0.06172839506172839,0.9567901234567902,19.0
+species_Elgaria multicarinata,1,4.474515196827894,0.9175998555813724,0.04876325088339223,0.0002,0.0007859649122807018,1.5031885805631404,strong,"Very strong indicator (z-score: 1.2, ranked #20 of 162 significant species)
+IndVal: 4.5 (stronger than 88.3% of significant species)
+Specificity: 91.8% (better than 66.7% of significant species)
+Fidelity: 4.9% (better than 84.6% of significant species)
+p=2.0e-04",0.8827160493827161,0.6666666666666666,0.845679012345679,20.0
+species_Adelinia grande,1,4.466496854191505,0.9294254483354382,0.0480565371024735,0.0002,0.0007859649122807018,1.4980678381917027,strong,"Very strong indicator (z-score: 1.2, ranked #21 of 162 significant species)
+IndVal: 4.5 (stronger than 87.7% of significant species)
+Specificity: 92.9% (better than 70.4% of significant species)
+Fidelity: 4.8% (better than 82.7% of significant species)
+p=2.0e-04",0.8765432098765432,0.7037037037037037,0.8271604938271605,21.0
+species_Ceanothus cordulatus,0,4.368581662217884,0.896082424187267,0.04875200700627646,0.0002,0.0007859649122807018,1.435536403070515,strong,"Very strong indicator (z-score: 1.1, ranked #22 of 162 significant species)
+IndVal: 4.4 (stronger than 87.0% of significant species)
+Specificity: 89.6% (better than 63.0% of significant species)
+Fidelity: 4.9% (better than 84.0% of significant species)
+p=2.0e-04",0.8703703703703703,0.6296296296296297,0.8395061728395061,22.0
+species_Acer macrophyllum,1,4.283860708607284,0.7672991016049755,0.0558303886925795,0.0002,0.0007859649122807018,1.3814311850004366,strong,"Very strong indicator (z-score: 1.1, ranked #23 of 162 significant species)
+IndVal: 4.3 (stronger than 86.4% of significant species)
+Specificity: 76.7% (better than 32.1% of significant species)
+Fidelity: 5.6% (better than 88.0% of significant species)
+p=2.0e-04",0.8641975308641975,0.32098765432098764,0.8796296296296297,23.0
+species_Asclepias cordifolia,1,4.142587225221011,0.7419950536313584,0.0558303886925795,0.0002,0.0007859649122807018,1.2912099079682393,strong,"Above average indicator (z-score: 1.0, ranked #24 of 162 significant species)
+IndVal: 4.1 (stronger than 85.8% of significant species)
+Specificity: 74.2% (better than 27.2% of significant species)
+Fidelity: 5.6% (better than 88.0% of significant species)
+p=2.0e-04",0.8580246913580247,0.2716049382716049,0.8796296296296297,24.0
+species_Platanthera dilatata,0,4.064487569898429,0.9011587165493248,0.04510290468544738,0.0002,0.0007859649122807018,1.241333239890962,strong,"Above average indicator (z-score: 0.9, ranked #25 of 162 significant species)
+IndVal: 4.1 (stronger than 85.2% of significant species)
+Specificity: 90.1% (better than 64.8% of significant species)
+Fidelity: 4.5% (better than 80.9% of significant species)
+p=2.0e-04",0.8518518518518519,0.6481481481481481,0.808641975308642,25.0
+species_Ursus americanus,0,4.0273884428169895,0.6507461844749809,0.06188877536126113,0.0084,0.014815748031496063,1.2176406788962322,strong,"Above average indicator (z-score: 0.9, ranked #26 of 162 significant species)
+IndVal: 4.0 (stronger than 84.6% of significant species)
+Specificity: 65.1% (better than 8.6% of significant species)
+Fidelity: 6.2% (better than 92.6% of significant species)
+p=8.4e-03",0.845679012345679,0.08641975308641975,0.9259259259259259,26.0
+species_Cryptoporus volvatus,0,3.993145182210126,0.7334326445930717,0.054444606626769816,0.0002,0.0007859649122807018,1.1957719557102238,strong,"Above average indicator (z-score: 0.9, ranked #27 of 162 significant species)
+IndVal: 4.0 (stronger than 84.0% of significant species)
+Specificity: 73.3% (better than 26.5% of significant species)
+Fidelity: 5.4% (better than 86.4% of significant species)
+p=2.0e-04",0.8395061728395061,0.2654320987654321,0.8641975308641975,27.0
+species_Wyethia mollis,0,3.943681898579237,0.9513438270128997,0.041453802364618306,0.0002,0.0007859649122807018,1.16418329159282,strong,"Above average indicator (z-score: 0.9, ranked #28 of 162 significant species)
+IndVal: 3.9 (stronger than 83.3% of significant species)
+Specificity: 95.1% (better than 80.2% of significant species)
+Fidelity: 4.1% (better than 79.0% of significant species)
+p=2.0e-04",0.8333333333333334,0.8024691358024691,0.7901234567901234,28.0
+species_Lysimachia latifolia,1,3.7920829737147645,0.7890878540891753,0.0480565371024735,0.0002,0.0007859649122807018,1.0673678930471233,strong,"Above average indicator (z-score: 0.8, ranked #29 of 162 significant species)
+IndVal: 3.8 (stronger than 82.7% of significant species)
+Specificity: 78.9% (better than 36.4% of significant species)
+Fidelity: 4.8% (better than 82.7% of significant species)
+p=2.0e-04",0.8271604938271605,0.36419753086419754,0.8271604938271605,29.0
+species_Pyrola picta,0,3.754398257649625,0.9491285041755565,0.039556269157787184,0.0002,0.0007859649122807018,1.0433013582205104,strong,"Above average indicator (z-score: 0.8, ranked #30 of 162 significant species)
+IndVal: 3.8 (stronger than 82.1% of significant species)
+Specificity: 94.9% (better than 79.6% of significant species)
+Fidelity: 4.0% (better than 75.3% of significant species)
+p=2.0e-04",0.8209876543209876,0.7962962962962963,0.7530864197530864,30.0
+species_Rubus parviflorus,0,3.7129392625170135,0.6641604931463201,0.05590424755510145,0.0062,0.01138360655737705,1.0168244611009811,strong,"Above average indicator (z-score: 0.7, ranked #31 of 162 significant species)
+IndVal: 3.7 (stronger than 81.5% of significant species)
+Specificity: 66.4% (better than 10.5% of significant species)
+Fidelity: 5.6% (better than 89.2% of significant species)
+p=6.2e-03",0.8148148148148148,0.10493827160493827,0.8919753086419753,31.0
