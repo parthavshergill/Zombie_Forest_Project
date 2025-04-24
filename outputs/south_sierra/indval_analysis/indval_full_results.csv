@@ -1,0 +1,32 @@
+Species,Cluster,IndVal,Specificity,Fidelity,pvalue,pvalue_adj,indval_zscore,relative_strength,interpretation,indval_percentile,specificity_percentile,fidelity_percentile,rank
+species_Aquilegia formosa,0,11.693980515431356,0.732412463861227,0.15966386554621848,0.024,0.154,0.5976343012367497,above_average,"Below average indicator (z-score: -0.0, ranked #3 of 4 significant species)
+IndVal: 11.7 (stronger than 50.0% of significant species)
+Specificity: 73.2% (better than 75.0% of significant species)
+Fidelity: 16.0% (better than 50.0% of significant species)
+p=2.4e-02",0.5,0.75,0.5,3.0
+species_Arctostaphylos patula,0,8.44756219319411,0.7054455445544554,0.11974789915966387,0.0768,0.2304,-0.5959548101191421,below_average,Not a significant indicator species,,,,
+species_Chamaebatia foliolosa,1,13.28548644338118,0.569377990430622,0.23333333333333334,0.106,0.26499999999999996,1.1827727392647127,strong,Not a significant indicator species,,,,
+species_Leptosiphon ciliatus,0,11.96075596230395,0.7591093117408907,0.15756302521008403,0.0178,0.154,0.6957178619359734,above_average,"Above average indicator (z-score: 0.2, ranked #2 of 4 significant species)
+IndVal: 12.0 (stronger than 75.0% of significant species)
+Specificity: 75.9% (better than 100.0% of significant species)
+Fidelity: 15.8% (better than 25.0% of significant species)
+p=1.8e-02",0.75,1.0,0.25,2.0
+species_Leuconotopicus albolarvatus,1,6.444518125552609,0.5523872679045093,0.11666666666666667,0.4024,0.5286428571428572,-1.3324007488099074,weak,Not a significant indicator species,,,,
+species_Lilium kelleyanum,0,13.002773925104023,0.7281553398058253,0.17857142857142858,0.0308,0.154,1.0788297011330554,strong,"Very strong indicator (z-score: 1.1, ranked #1 of 4 significant species)
+IndVal: 13.0 (stronger than 100.0% of significant species)
+Specificity: 72.8% (better than 50.0% of significant species)
+Fidelity: 17.9% (better than 100.0% of significant species)
+p=3.1e-02",1.0,0.5,1.0,1.0
+species_Odocoileus hemionus,0,10.740916084743759,0.5809859154929579,0.18487394957983194,0.3556,0.5286428571428572,0.2472274177192333,above_average,Not a significant indicator species,,,,
+species_Penstemon newberryi,0,8.300683617498445,0.6173633440514469,0.13445378151260504,0.2936,0.5106666666666667,-0.6499566827185401,below_average,Not a significant indicator species,,,,
+species_Pteridium aquilinum,0,9.936726169757845,0.6479289940828403,0.15336134453781514,0.1646,0.3527142857142857,-0.04844375916345431,below_average,Not a significant indicator species,,,,
+species_Pterospora andromedea,1,8.028485757121437,0.5352323838080959,0.15,0.4624,0.5286428571428572,-0.7500338662579892,below_average,Not a significant indicator species,,,,
+species_Ribes roezlii,1,8.512160228898425,0.5107296137339056,0.16666666666666666,0.8874,0.8874,-0.5722044784063407,below_average,Not a significant indicator species,,,,
+species_Sarcodes sanguinea,0,15.73761915833527,0.5632411067193676,0.27941176470588236,0.3064,0.5106666666666667,2.0843321249176845,strong,Not a significant indicator species,,,,
+species_Sceloporus graciosus,1,10.303030303030301,0.6181818181818182,0.16666666666666666,0.0434,0.16275,0.08623285411334475,above_average,"Weak indicator (z-score: -1.3, ranked #4 of 4 significant species)
+IndVal: 10.3 (stronger than 25.0% of significant species)
+Specificity: 61.8% (better than 25.0% of significant species)
+Fidelity: 16.7% (better than 75.0% of significant species)
+p=4.3e-02",0.25,0.25,0.75,4.0
+species_Tamiasciurus douglasii,0,5.718754053937183,0.5917667238421955,0.09663865546218488,0.478,0.5286428571428572,-1.5992376155685049,weak,Not a significant indicator species,,,,
+species_Ursus americanus,1,8.913857677902621,0.5348314606741573,0.16666666666666666,0.4934,0.5286428571428572,-0.42451503927687284,below_average,Not a significant indicator species,,,,

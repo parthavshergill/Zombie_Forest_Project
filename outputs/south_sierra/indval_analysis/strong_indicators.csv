@@ -1,0 +1,6 @@
+Species,Cluster,IndVal,Specificity,Fidelity,pvalue,pvalue_adj,indval_zscore,relative_strength,interpretation,indval_percentile,specificity_percentile,fidelity_percentile,rank
+species_Lilium kelleyanum,0,13.002773925104023,0.7281553398058253,0.17857142857142858,0.0308,0.154,1.0788297011330554,strong,"Very strong indicator (z-score: 1.1, ranked #1 of 4 significant species)
+IndVal: 13.0 (stronger than 100.0% of significant species)
+Specificity: 72.8% (better than 50.0% of significant species)
+Fidelity: 17.9% (better than 100.0% of significant species)
+p=3.1e-02",1.0,0.5,1.0,1.0

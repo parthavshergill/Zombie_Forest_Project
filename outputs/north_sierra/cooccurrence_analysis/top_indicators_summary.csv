@@ -1,0 +1,16 @@
+Species,Co-occurrence (%),Cramer's V,Odds Ratio,P-value,Z-score
+Calochortus albus,98.6,0.205,100.42,1.2e-19,2.41
+Aesculus californica,93.0,0.161,18.04,1.0e-12,2.19
+Heteromeles arbutifolia,90.7,0.177,13.42,5.9e-15,2.09
+Toxicodendron diversilobum,77.8,0.163,4.89,7.0e-13,1.58
+Adelinia grande,73.6,0.124,3.8,5.4e-08,1.42
+Elgaria multicarinata,72.2,0.118,3.53,2.9e-07,1.37
+Lonicera hispidula,71.2,0.101,3.32,1.1e-05,1.33
+Silene laciniata,60.0,0.093,2.04,6.0e-05,0.88
+Chlorogalum pomeridianum,57.5,0.052,1.78,3.1e-02,0.78
+Pseudacris regilla,57.2,0.079,1.81,6.6e-04,0.77
+Arctostaphylos viscida,52.5,0.048,1.47,4.4e-02,0.59
+Erythranthe cardinalis,33.0,0.048,0.62,4.4e-02,-0.18
+Turdus migratorius,31.5,0.049,0.58,4.1e-02,-0.24
+Papilio eurymedon,31.5,0.049,0.58,4.3e-02,-0.24
+Ribes roezlii,31.1,0.059,0.56,1.2e-02,-0.26

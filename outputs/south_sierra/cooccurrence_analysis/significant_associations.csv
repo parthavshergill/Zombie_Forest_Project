@@ -1,0 +1,16 @@
+species,cramer_v,odds_ratio,co_occurrence_ratio,p_value,chi2_statistic,adjusted_p_value,preference_index,relative_risk,interpretation,cooccurrence_zscore,relative_strength,co_occurrence_ratio_percentile,cramer_v_percentile,odds_ratio_percentile,rank
+species_Aquilegia formosa,0.11132187596236899,0.3260363297624592,0.08433734939759036,0.006573476212838546,7.385965800397516,0.03286738106419273,-0.14650197428368936,inf,"Above average association with VCM (z-score: 0.4, ranked #2 of 3 significant species)
+Co-occurrence ratio: 8.4% (higher than 66.7% of significant species)
+Effect size (Cramer's V): 0.111 (stronger than 33.3% of significant species)
+Odds ratio: 0.3 (higher than 66.7% of significant species)
+p=3.3e-02",0.44221766785415595,average,0.6666666666666666,0.3333333333333333,0.6666666666666666,2.0
+species_Leptosiphon ciliatus,0.1197618752607298,0.2814035087719298,0.07407407407407407,0.003458312950770998,8.548372432516096,0.030005787568955607,-0.15935262994086521,inf,"Weak association with VCM (z-score: -1.1, ranked #3 of 3 significant species)
+Co-occurrence ratio: 7.4% (higher than 33.3% of significant species)
+Effect size (Cramer's V): 0.120 (stronger than 100.0% of significant species)
+Odds ratio: 0.3 (higher than 33.3% of significant species)
+p=3.0e-02",-1.1448688951324875,very_weak,0.3333333333333333,1.0,0.3333333333333333,3.0
+species_Lilium kelleyanum,0.11789160591918994,0.32857142857142857,0.08602150537634409,0.004000771675860748,8.283464724738526,0.030005787568955607,-0.14439324116743468,inf,"Above average association with VCM (z-score: 0.7, ranked #1 of 3 significant species)
+Co-occurrence ratio: 8.6% (higher than 100.0% of significant species)
+Effect size (Cramer's V): 0.118 (stronger than 66.7% of significant species)
+Odds ratio: 0.3 (higher than 100.0% of significant species)
+p=3.0e-02",0.7026512272783337,average,1.0,0.6666666666666666,1.0,1.0

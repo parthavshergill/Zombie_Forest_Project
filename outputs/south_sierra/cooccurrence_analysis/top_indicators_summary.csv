@@ -1,0 +1,4 @@
+Species,Co-occurrence (%),Cramer's V,Odds Ratio,P-value,Z-score
+Lilium kelleyanum,8.6,0.118,0.33,3.0e-02,0.7
+Aquilegia formosa,8.4,0.111,0.33,3.3e-02,0.44
+Leptosiphon ciliatus,7.4,0.12,0.28,3.0e-02,-1.14

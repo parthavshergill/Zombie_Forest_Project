@@ -1,0 +1,16 @@
+,species_Aquilegia formosa,species_Arctostaphylos patula,species_Chamaebatia foliolosa,species_Leptosiphon ciliatus,species_Leuconotopicus albolarvatus,species_Lilium kelleyanum,species_Odocoileus hemionus,species_Penstemon newberryi,species_Pteridium aquilinum,species_Pterospora andromedea,species_Ribes roezlii,species_Sarcodes sanguinea,species_Sceloporus graciosus,species_Tamiasciurus douglasii,species_Ursus americanus
+species_Aquilegia formosa,0,0,0,1,1,1,2,1,1,0,0,2,2,1,1
+species_Arctostaphylos patula,0,0,1,0,3,1,1,1,0,2,2,3,2,1,1
+species_Chamaebatia foliolosa,0,1,0,0,5,1,4,0,1,3,5,3,3,2,4
+species_Leptosiphon ciliatus,1,0,0,0,0,1,0,0,1,1,1,1,1,1,1
+species_Leuconotopicus albolarvatus,1,3,5,0,0,1,4,3,1,5,2,6,6,1,7
+species_Lilium kelleyanum,1,1,1,1,1,0,0,1,0,1,2,3,1,2,0
+species_Odocoileus hemionus,2,1,4,0,4,0,0,1,1,3,0,4,2,2,6
+species_Penstemon newberryi,1,1,0,0,3,1,1,0,2,2,2,2,3,2,3
+species_Pteridium aquilinum,1,0,1,1,1,0,1,2,0,1,1,1,3,0,2
+species_Pterospora andromedea,0,2,3,1,5,1,3,2,1,0,2,6,3,2,4
+species_Ribes roezlii,0,2,5,1,2,2,0,2,1,2,0,4,3,2,0
+species_Sarcodes sanguinea,2,3,3,1,6,3,4,2,1,6,4,0,5,2,3
+species_Sceloporus graciosus,2,2,3,1,6,1,2,3,3,3,3,5,0,0,4
+species_Tamiasciurus douglasii,1,1,2,1,1,2,2,2,0,2,2,2,0,0,1
+species_Ursus americanus,1,1,4,1,7,0,6,3,2,4,0,3,4,1,0

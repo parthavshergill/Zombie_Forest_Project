@@ -1,0 +1,21 @@
+Species,Cluster,IndVal,Specificity,Fidelity,pvalue,pvalue_adj,indval_zscore,relative_strength,interpretation,indval_percentile,specificity_percentile,fidelity_percentile,rank
+species_Aquilegia formosa,0,11.693980515431356,0.732412463861227,0.15966386554621848,0.024,0.154,0.5976343012367497,above_average,"Below average indicator (z-score: -0.0, ranked #3 of 4 significant species)
+IndVal: 11.7 (stronger than 50.0% of significant species)
+Specificity: 73.2% (better than 75.0% of significant species)
+Fidelity: 16.0% (better than 50.0% of significant species)
+p=2.4e-02",0.5,0.75,0.5,3.0
+species_Leptosiphon ciliatus,0,11.96075596230395,0.7591093117408907,0.15756302521008403,0.0178,0.154,0.6957178619359734,above_average,"Above average indicator (z-score: 0.2, ranked #2 of 4 significant species)
+IndVal: 12.0 (stronger than 75.0% of significant species)
+Specificity: 75.9% (better than 100.0% of significant species)
+Fidelity: 15.8% (better than 25.0% of significant species)
+p=1.8e-02",0.75,1.0,0.25,2.0
+species_Lilium kelleyanum,0,13.002773925104023,0.7281553398058253,0.17857142857142858,0.0308,0.154,1.0788297011330554,strong,"Very strong indicator (z-score: 1.1, ranked #1 of 4 significant species)
+IndVal: 13.0 (stronger than 100.0% of significant species)
+Specificity: 72.8% (better than 50.0% of significant species)
+Fidelity: 17.9% (better than 100.0% of significant species)
+p=3.1e-02",1.0,0.5,1.0,1.0
+species_Sceloporus graciosus,1,10.303030303030301,0.6181818181818182,0.16666666666666666,0.0434,0.16275,0.08623285411334475,above_average,"Weak indicator (z-score: -1.3, ranked #4 of 4 significant species)
+IndVal: 10.3 (stronger than 25.0% of significant species)
+Specificity: 61.8% (better than 25.0% of significant species)
+Fidelity: 16.7% (better than 75.0% of significant species)
+p=4.3e-02",0.25,0.25,0.75,4.0

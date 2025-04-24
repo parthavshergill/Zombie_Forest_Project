@@ -1,0 +1,46 @@
+Species,Cluster,IndVal,Specificity,Fidelity,pvalue,pvalue_adj,indval_zscore,relative_strength,interpretation,indval_percentile,specificity_percentile,fidelity_percentile,rank
+species_Cornus nuttallii,0,10.452152599752079,0.7203671081533677,0.14509480626545754,0.0002,0.00064,3.1146228967762473,strong,"Exceptionally strong indicator (z-score: 2.7, ranked #1 of 38 significant species)
+IndVal: 10.5 (stronger than 100.0% of significant species)
+Specificity: 72.0% (better than 42.1% of significant species)
+Fidelity: 14.5% (better than 100.0% of significant species)
+p=2.0e-04",1.0,0.42105263157894735,1.0,1.0
+species_Viola lobata,0,9.270512286020443,0.8329726965142812,0.11129431162407255,0.0002,0.00064,2.5209744497648323,strong,"Exceptionally strong indicator (z-score: 2.1, ranked #2 of 38 significant species)
+IndVal: 9.3 (stronger than 97.4% of significant species)
+Specificity: 83.3% (better than 86.8% of significant species)
+Fidelity: 11.1% (better than 94.7% of significant species)
+p=2.0e-04",0.9736842105263158,0.868421052631579,0.9473684210526315,2.0
+species_Iris hartwegii,0,8.576977810723186,0.6626671391342182,0.12943116240725475,0.0002,0.00064,2.1725472173620295,strong,"Very strong indicator (z-score: 1.8, ranked #3 of 38 significant species)
+IndVal: 8.6 (stronger than 94.7% of significant species)
+Specificity: 66.3% (better than 28.9% of significant species)
+Fidelity: 12.9% (better than 97.4% of significant species)
+p=2.0e-04",0.9473684210526315,0.2894736842105263,0.9736842105263158,3.0
+species_Toxicodendron diversilobum,1,7.916008135647674,0.8185674346862045,0.09670563230605739,0.0002,0.00064,1.8404803298579426,strong,"Very strong indicator (z-score: 1.5, ranked #4 of 38 significant species)
+IndVal: 7.9 (stronger than 92.1% of significant species)
+Specificity: 81.9% (better than 81.6% of significant species)
+Fidelity: 9.7% (better than 86.8% of significant species)
+p=2.0e-04",0.9210526315789473,0.8157894736842105,0.868421052631579,4.0
+species_Calochortus albus,1,7.569873195373798,0.9893403717842699,0.0765143464399575,0.0002,0.00064,1.6665843757659067,strong,"Very strong indicator (z-score: 1.3, ranked #5 of 38 significant species)
+IndVal: 7.6 (stronger than 89.5% of significant species)
+Specificity: 98.9% (better than 100.0% of significant species)
+Fidelity: 7.7% (better than 76.3% of significant species)
+p=2.0e-04",0.8947368421052632,1.0,0.7631578947368421,5.0
+species_Silene laciniata,1,6.934415807021053,0.6591197246875566,0.10520722635494155,0.0002,0.00064,1.3473346960167338,strong,"Above average indicator (z-score: 1.0, ranked #6 of 38 significant species)
+IndVal: 6.9 (stronger than 86.8% of significant species)
+Specificity: 65.9% (better than 26.3% of significant species)
+Fidelity: 10.5% (better than 90.8% of significant species)
+p=2.0e-04",0.868421052631579,0.2631578947368421,0.9078947368421053,6.0
+species_Heteromeles arbutifolia,1,6.691949804076942,0.9260477596524122,0.07226354941551541,0.0002,0.00064,1.225521345178801,strong,"Above average indicator (z-score: 0.9, ranked #7 of 38 significant species)
+IndVal: 6.7 (stronger than 84.2% of significant species)
+Specificity: 92.6% (better than 94.7% of significant species)
+Fidelity: 7.2% (better than 71.1% of significant species)
+p=2.0e-04",0.8421052631578947,0.9473684210526315,0.7105263157894737,7.0
+species_Pseudacris regilla,1,6.659262913059632,0.6329663031504156,0.10520722635494155,0.0002,0.00064,1.2090996626544654,strong,"Above average indicator (z-score: 0.9, ranked #8 of 38 significant species)
+IndVal: 6.7 (stronger than 81.6% of significant species)
+Specificity: 63.3% (better than 15.8% of significant species)
+Fidelity: 10.5% (better than 90.8% of significant species)
+p=2.0e-04",0.8157894736842105,0.15789473684210525,0.9078947368421053,8.0
+species_Diplacus torreyi,0,6.501231161450211,0.838935467961607,0.07749381698268755,0.0002,0.00064,1.1297055332978285,strong,"Above average indicator (z-score: 0.8, ranked #9 of 38 significant species)
+IndVal: 6.5 (stronger than 78.9% of significant species)
+Specificity: 83.9% (better than 89.5% of significant species)
+Fidelity: 7.7% (better than 78.9% of significant species)
+p=2.0e-04",0.7894736842105263,0.8947368421052632,0.7894736842105263,9.0
