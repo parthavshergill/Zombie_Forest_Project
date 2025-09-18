@@ -1,6 +1,6 @@
 # VCM Indicator Species Analysis
 
-This project analyzes species distribution data to identify indicator species and multi-species assemblages that are characteristic of Vulnerable Conifer Montane (VCM) habitats. The analysis involves spatial data processing, statistical analysis of species co-occurrence patterns, community detection, and visualization of ecological networks.
+This project analyzes species distribution data to identify indicator species and multi-species assemblages that are characteristic of regions experiencing vegetation climate mismatch (VCM). The analysis involves spatial data processing, statistical analysis of species co-occurrence patterns, community detection, and visualization of ecological networks.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This project analyzes species distribution data to identify indicator species an
 
 ## Overview
 
-The project implements a complete ecological analysis pipeline for identifying species that indicate Vulnerable Conifer Montane (VCM) habitats using observation data from iNaturalist. It applies multiple analytical methods:
+The project implements a complete ecological analysis pipeline for identifying species that indicate VCM habitats using observation data from iNaturalist. It applies multiple analytical methods:
 
 1. **Frequency Analysis**: Identifies species that appear more frequently in VCM habitats
 2. **Co-occurrence Analysis**: Measures statistical association between species presence and VCM sites
